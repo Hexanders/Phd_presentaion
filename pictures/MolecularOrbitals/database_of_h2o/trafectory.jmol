@@ -1,0 +1,27 @@
+~degstep = 1 # or 2, degrees per step
+~degrees = 0 # total degrees rotated
+
+while (~degrees < 360)
+{
+	# SPIN
+	rotate y @~degstep
+	~degrees += ~degstep
+	
+	# DISPLAY/WRITE FRAME
+	refresh
+	
+	~whereami = "degrees = " + ~degrees 
+	print ~whereami
+	
+	~fileprefix = "/home/kononov/Documents/PhD-Presentaion/revealJS/pictures/MolecularOrbitals/animation/"
+
+	# UNCOMMENT TO GENERATE EXTRA FRAMES REQUIRED FOR WMV. COMMENT OUT FOR MP4.
+	~degreesplus = 1000 + ~degrees
+	~towrite = ~fileprefix + "m" + ~degreesplus + ".jpg"
+
+	# UNCOMMENT TO GENERATE FRAMES FOR MP4 (AND WMV). COMMENT OUT TO GENERATE EXTRA FRAMES FOR WMV.
+	#~towrite = ~fileprefix + "m" + ~degrees + ".jpg"
+	
+        # WRITE THE IMAGE
+	write image jpg @~towrite
+}

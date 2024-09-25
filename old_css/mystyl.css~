@@ -1,0 +1,79 @@
+.definition {
+  background-color: blue;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  margin: 1rem 0 1rem 0;
+}
+section#title-slide h1 {
+  color: black;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5em;
+  text-align: center;
+  width: auto;
+  max-width: 100%;
+  margin: 20px !important;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+.background-on-accent {
+  background-color: var(--accent3);
+  width: 100%;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url("pictures/Logo/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-on-accent {
+    /* background-color: var(--accent3); */
+    width: 120%;
+    height: 68px;
+  background: white;
+  box-sizing: none;
+  background-image: url('pictures/Logo/tud_logo_rgb.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 215px;
+  background-position: left;
+}
+
+section#title-slide h1{
+    background: #639A00;
+    width: 85%;
+    color: white;
+    text-align: left;
+    font-size: 1em;
+    font-weight: bold;
+    transform: translate(15.8%, 0%);
+}
+section#title-slide div.author { /* used as subtitle because of placment */
+  margin: 0px 0 0 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.8em;
+  text-align: center;
+  color: var(--shade9);
+}
+
+section#title-slide div.affiliation { /* i use it as author beacuas of placment */
+  margin: 30px 0 0 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.6em;
+
+  text-align: center;
+  color: var(--shade9);
+}
+
+
+section#title-slide div.date{
+    font-size: 0.5em;
+    font-weight: bold;
+    color: var(--shade9);
+}
+

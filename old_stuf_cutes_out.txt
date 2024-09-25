@@ -1,0 +1,857 @@
+<div class="reveal">
+		  <div class="menubar">
+		    <ul class="menu"></ul> <!-- Keep this empty -->
+		  </div>
+	      <div class="slides">
+		  <section id ="title-slide">
+		  <h2>Fullerene und Bismutcluster </br>auf </br>Al<sub>2</sub>O<sub>3</sub>||Ni<sub>3</sub>Al(111)</h2>
+		  <img src="/pictures/Opening/title_page_oppening.svg" width="80%">
+                </section>
+		<section data-name="Cluster">
+		<section> 		   
+			<h2>Was ist ein Cluster?</h2>
+			<p class = "fragment danger" style ="font-size:80%;">Cluster sind verbindungen von mindestens 3 Atomen.</p>
+			
+			    <div class = 'col-container'>
+				<div class = 'col-one' style="margin: 0px 0px 0px 10px">
+				    <div id ="atom_my_ass">
+					<h3 class = "fragment" style="right:100px;margin: -30px 0px 0px 0px;"><button class ="my_zoom_button" type="button" value="" onclick="zoomElement('#atom_my_ass');" ><i>&#x1F50E;&#xFE0E;</i></button>Atom</h3>
+					<span class="fragment" data-zoom-trigger='{"selector": "#atom_my_ass", "scale": 1}'></span>
+					<div  class = 'col-container'>
+			      <div class = 'col-one'>
+				 
+				  <h5 class = "fragment">klassisch</h5>
+				  <img class = "fragment"  src="pictures/AtomicOrbitals/Atom-as-solar-system.svg" width="100%">
+			      </br>
+			      <div class="r-stack" width ="100%;">
+				  <img class = "fragment  current-visible" src="pictures/AtomicOrbitals/Atom-as-solar-system-animate.svg" width="100%">
+				  <h6 class = "fragment">Wenn Atomkern ein Apfel wäre</h6>
+				      <img class = "fragment current-visible"  src="pictures/AtomicOrbitals/red-apple-svgrepo-com.svg" width="70%">
+				      <img class = "fragment current-visible"  src="pictures/AtomicOrbitals/Dortmund-Innenstadt2.png" width="100%">
+				      <img class = "fragment current-visible"  src="pictures/AtomicOrbitals/Dortmund-Innenstadt3.png" width="100%">
+				      <img class = "fragment "  src="pictures/AtomicOrbitals/Dortmund-Innenstadt4.png" width="100%">
+				      <!-- <img class = "fragment shrink"  src="pictures/AtomicOrbitals/Dortmund-Innenstadt2.png" width="30%"> -->
+				      <!-- <img class = "fragment current-visible"  src="pictures/AtomicOrbitals/Dortmund-Innenstadt2.png" width="30%"> -->
+				  </div>
+			      </div>
+			      <div class = 'col-tree' style="margin: 0px 0px 0px 10px  ;">
+				  <h5 class = "fragment">quantenmechanisch</h5>
+				  <div class = 'col-container'>
+
+				      <div class = 'col-two'>
+					  <div class ="fragment" style="font-size:65%;">
+					      \(\psi_{n\ell m}(r,\theta,\phi)  			    =
+					      \sqrt{
+					      \left(\frac{2}{na_0}\right)^3\, \frac{(n-\ell-1)!}{2n[(n+\ell)!]}
+					      }
+					      e^{-r / na_0}
+					      \left(\frac{2r}{na_0}\right)^\ell
+					      L_{n-\ell-1}^{2\ell+1} \cdot Y_\ell^m(\theta, \phi)
+					      \)
+					  </div>
+					  <div class ="fragment" >	 
+					      <img  class = "image" width = "80%" style="float:left;" src="pictures/Solids/Filling_levels.svg">
+					      <div class="left-bottom-under-image"><font size="2.5">K.Efthimios, and J. D. Joannopoulos. "Quantum Theory of Materials" 2019.</font></div>
+					  </div>
+				      </div>
+				     
+				  <div class = 'col-one'>
+
+				      <!-- <div class="simple-gallery--thumbs">
+					   <ul>
+					   <li>
+					   
+					   <div class ="fragment image-container" style ="right: 230px;top: 30px;">	 
+					   <img  class = "image_in_col"  width = "100%"" src="pictures/AtomicOrbitals/quantenmechanisch/orbitals/animations/(1, 0, 0)orbital5000-SF8LU8.gif">
+					   <div class="top-right">1   0   0</div>
+					   </div>
+					   </li>
+					   <li>
+					   <div class ="fragment image-container"  style ="right:50px;bottom: 160px;" >	 
+					   <img class = "image_in_col" width = "100%" src="pictures/AtomicOrbitals/quantenmechanisch/orbitals/animations/(2, 1, 0)orbital5000-SF8LXD.gif">
+					   <div class=" top-right">2 1 0</div>
+					   </div>
+					   </li>
+					   <li>
+					   <div class ="fragment image-container" style ="right:50px; bottom: 150px;">	 
+					   <img  class = "image_in_col" width = "100%" src="pictures/AtomicOrbitals/quantenmechanisch/orbitals/animations/(3, 1, -1)orbital5000-SF8LZ5.gif">
+					   <div class="bottom-right">3 1 -1</div>
+					   </div>
+					   </li>
+					   </ul>
+					   </div> -->
+				      <div class="simple-gallery simple-gallery--thumbs">
+					  <ul>
+					      <li>
+						  
+						  <div class ="fragment image-container" >	 
+						      <img  class = "image_in_col"  width = "85%" src="pictures/AtomicOrbitals/quantenmechanisch/orbitals/animations/(1, 0, 0)orbital5000-SF8LU8.gif">
+						      <div class="top-right">1   0   0</div>
+						  </div>
+					      </li>
+					      <li>
+						  <div class ="fragment image-container"   >	 
+						      <img class = "image_in_col" width = "85%" src="pictures/AtomicOrbitals/quantenmechanisch/orbitals/animations/(2, 1, 0)orbital5000-SF8LXD.gif">
+						      <div class=" top-right">2 1 0</div>
+						  </div>
+					      </li>
+					      <li>
+						  <div class ="fragment image-container" >	 
+						      <img  class = "image_in_col" width = "85%" src="pictures/AtomicOrbitals/quantenmechanisch/orbitals/animations/(3, 1, -1)orbital5000-SF8LZ5.gif">
+						      <div class="top-right">3 1 -1</div>
+						  </div>
+					      </li>
+					  </ul>
+				      </div>
+				      
+				  </div>
+				  </div>
+				  </div>
+				</div>
+				    </div>
+				    <span class="fragment" data-zoom-trigger='{"selector": "#atom_my_ass", "scale": 1}'></span>
+				    <div id="molecule_my_ass" class = 'col-container' style="margin: 5px 0px 0px 0px">
+			      <div class = 'col'>
+				  <h3 class = "fragment"  style="margin: -30px 0px 0px 0px"><button class ="my_zoom_button" type="button" value="" onclick="zoomElement('#molecule_my_ass');" ><i>&#x1F50E;&#xFE0E;</i></button>Molekül</h3>
+				  <span class="fragment" data-zoom-trigger='{"selector": "#molecule_my_ass", "scale": 1}'></span>
+				  <!-- <img  class = "image" width = "50%" src="pictures/MolecularOrbitals/h2o_orbitals.gif"> -->
+				  <!-- <div class ="fragment  image-container">
+				       <img  class = "image" width = "90%" src="pictures/MolecularOrbitals/H2O.svg">
+				       <div class="citaion-bottom-right">https://water.lsbu.ac.uk/water/h2o_orbitals.html</div>
+				       <div class="citaion2-bottom-right">physikmdb.uni-graz.at</div>
+				       </div>   -->
+				  <div class="r-stack">
+				      <img class="fragment current-visible " src="pictures/MolecularOrbitals/H2O-1.svg" width = "100%">
+				      <img class="fragment current-visible " src="pictures/MolecularOrbitals/H2O-2.svg" width = "100%">
+				      <img class="fragment current-visible " src="pictures/MolecularOrbitals/H2O-3.svg" width = "100%">
+				  <img class="fragment current-visible " src="pictures/MolecularOrbitals/H2O-4.svg" width = "100%">
+				  <img class="fragment current-visible " src="pictures/MolecularOrbitals/H2O-5.svg" width = "100%">
+				  <img class="fragment current-visible " src="pictures/MolecularOrbitals/H2O-6.svg" width = "100%">
+				  <img class="fragment current-visible " src="pictures/MolecularOrbitals/H2O-7.svg" width = "100%">
+				  <img class="fragment current-visible " src="pictures/MolecularOrbitals/H2O-8.svg" width = "100%">
+				  <img class="fragment current-visible " src="pictures/MolecularOrbitals/H2O-8.1.svg" width = "100%">
+				  <img class="fragment current-visible " src="pictures/MolecularOrbitals/H2O-9.svg" width = "100%">
+				  <img class="fragment current-visible " src="pictures/MolecularOrbitals/H2O-10.svg" width = "100%">
+				  <img class="fragment" src="pictures/MolecularOrbitals/H2O-11.svg" width = "100%">
+				  </div>
+			      </div>
+			      <div class = 'col-tree'>
+				  <h3 class = "fragment" style="margin: -30px 0px 0px 0px">Festkörper (Bulk)</h3>
+				  <div class="col-container">
+				      <div class ="col">
+					  <div class="r-stack">
+					      <img class = "fragment current-visible" src="pictures/Solids/from--atom-to-solid1.svg" width="100%" >
+					      <img class = "fragment current-visible" src="pictures/Solids/from--atom-to-solid2.svg" width="100%" >
+					      <img class = "fragment current-visible" src="pictures/Solids/from--atom-to-solid3.svg" width="100%" >
+					      <img class = "fragment current-visible" src="pictures/Solids/from--atom-to-solid4.svg" width="100%" >
+					      <img class = "fragment current-visible" src="pictures/Solids/from--atom-to-solid5.svg" width="100%" >
+					      <img class = "fragment current-visible" src="pictures/Solids/from--atom-to-solid6.svg" width="100%" >
+					      <img class = "fragment current-visible" src="pictures/Solids/from--atom-to-solid7.svg" width="100%" >
+					      <img class = "fragment current-visible" src="pictures/Solids/from--atom-to-solid8.svg" width="100%" >
+					      <img class = "fragment" src="pictures/Solids/from--atom-to-solid9.svg" width="100%" >
+					  </div>
+				      </div>
+				      <div class ="col">
+					  <img class = "fragment" src="pictures/Solids/Silicone_band_structure/Si-bandStrukture-whole.svg" width="100%" >
+				      </div>
+				  </div>
+			      </div>
+			  </div>
+		      </div>
+		      <span class="fragment" data-zoom-trigger='{"selector": "#molecule_my_ass", "scale": 1}'></span>
+		      <div class = 'col-one' style="margin: 0px 10px 0px 0px">
+			  <div id ="cluster_my_ass">
+			      <h3 class = "fragment" style="margin: -30px 0px 0px 0px;" > <button class ="my_zoom_button" type="button" value="" onclick="zoomElement('#cluster_my_ass');" ><i>&#x1F50E;&#xFE0E;</i></button> Cluster</h3>
+			      <h4 class = "fragment" >Warum so besonders?</h4>
+			      <span class="fragment" data-zoom-trigger='{"selector": "#cluster_my_ass", "scale": 1}'></span>
+			      <div class="col-container">
+			      <div class ="col-two">
+				  <h5 class = "fragment">Cluster VS Bulk:</h5>
+				  <div class="col-container">
+				      <div class ="col-one">
+					  
+
+					  <!-- <ul class = "fragment normal-text">
+					       <li>Eigenschaften ändern sich durch Hinzufügen/Entfernen eines Atoms</li>
+					       <li>Keine regelmäßige Atomanordnung (Polyeder)</li>
+					       
+					       <li>Vielfältige Strukturvariationen</li>
+					       </ul> -->
+					  <div class="fragment normal-text danger"> Änderung der Eigenschaften mit n</div> 
+					  <div class="fragment r-stack" width ="100%;">
+					      <div class = "fragment current-visible custom-cursor">
+						  <object   type="image/svg+xml" data="pictures/Cluster-vs-solids_molecules/Hg_sizedepend_still_frame.svg" width="100%"></object>
+						  <div class="left-bottom-under-image"><font size="2.5">K. Rademann et al., Phys. Rev. Lett. 59, 2319–2321 (1987)</font></div>
+					      </div>
+					      <div class ="fragment custom-cursor" id="fragment_Hg-clusters">
+						  <object   id="svgHg-clusters" typecc="image/svg+xml" data="pictures/Cluster-vs-solids_molecules/Hg_sizedepend.svg" width="100%" ></object>
+						  <div class="left-bottom-under-image"><font size="2.5">K. Rademann et al., Phys. Rev. Lett. 59, 2319–2321 (1987)</font></div>
+					      </div>
+					  </div>
+					  <div class="fragment normal-text danger ">Ein Atom macht Unterschied</div> 
+					  <div class="fragment normal-text danger">Potenziell tunable</div> 
+					  
+				      </div>
+				      <div class ="col-one">
+					  <div class="fragment normal-text danger" > Keine periodische Einheitszelle</div>
+					  <object class="fragment" id="html_myAss" type="text/html" data="pictures/Cluster-vs-solids_molecules/Bi_2_13.html" width="18%" height ="30%"></object>
+					  <object id="html_myAss2" class="fragment" type="text/html" data="pictures/Cluster-vs-solids_molecules/Bi_3_55.html" width="30%" height ="30%"></object>
+					  <object id="html_myAss3" class="fragment" type="text/html" data="pictures/Cluster-vs-solids_molecules/Bi_4_147.html" width="40%" height ="30%"></object> 
+					  <br> 
+					  
+					      <object id="html_myAss4" class="fragment" type="text/html" data="pictures/Cluster-vs-solids_molecules/Bi_5_309.html" width="45%" height ="40%"></object> 
+					      <object id="html_myAss5" class="fragment" type="text/html" data="pictures/Cluster-vs-solids_molecules/Bi_6_561.html" width="50%" height ="40%" ></object>
+					      
+				      </div>	  
+				      </div>
+			      </div>
+				      <div class ="col-one">
+					  <h5 class = "fragment">Cluster VS Molekülen:</h5>
+					  <div class="fragment normal-text danger "> Vielfältige Strukturvariationen </div>
+					   <div class ="fragment" id="fragment_Ar-clusters">
+					       <object   id="svgAr-clusters" type="image/svg+xml" data="pictures/Cluster-vs-solids_molecules/Ar_seven_geo_transitions_animated2.svg" width="85%" ></object>
+					       <div class="left-bottom-under-image"><font size="2.5">D. J. Wales et al., J. Chem. Phys. 92, 4283–4295 (1990).</font></div>
+					   </div>
+				      </div>
+			  </div>
+			  </div>
+			  <span class="fragment" data-zoom-trigger='{"selector": "#cluster_my_ass", "scale": 1}'></span>
+			  <div id="wie_gemacht_my_ass">
+			      <h4 class = "fragment" ><button class ="my_zoom_button" type="button" value="" onclick="zoomElement('#wie_gemacht_my_ass');" ><i>&#x1F50E;&#xFE0E;</i></button>Wie werden sie gemacht?</h4>
+			      <span class="fragment" data-zoom-trigger='{"selector": "#wie_gemacht_my_ass", "scale": 1}'></span>
+			      <div class="col-container">
+				      <div class="col-one">
+					  <h6 class = "fragment" >Chemisch: "Self-assembly" in Lösung</h6>
+					  <div class = "fragment">
+					      <img  src="pictures/Nanoparticals_howtomade/NP-in-solutions_only_one.svg" width="100%" >
+					      <br>
+					      <div class="left-bottom-under-image"><font size="2.5">K. Xia et al., Nat Commun. 15, 851 (2024).</font></div>
+					  </div>
+				      </div>
+				      <div class="col-two">
+					  <h6 class = "fragment" >Aggregation in der Gasphase</h6>
+					  <div class = "fragment">
+					      <img src="pictures/Nanoparticals_howtomade/Gas aggregation technique2.svg" width="100%" >
+					      <div class="left-bottom-under-image" style="line-height:.8"><font size="2.5">Koch, Siete Adriaan. / Functionality and dynamics of deposited metal nanoclusters. s.n., 2005. 167 p.</font></div>				  
+					  </div>
+				      </div>
+				      <div class="col-one">
+					  <h6 class = "fragment" >"Self-assembly" auf Oberflächen</h6>
+					      <!-- <img id= "pvd_growth" src="pictures/Nanoparticals_howtomade/pvd-growth.svg" width="100%" >	   -->
+					  <object class = "fragment" id='svgPVD_growth' type="image/svg+xml" data="pictures/Nanoparticals_howtomade/pvd-growth.svg" width="100%" ></object>					  
+				      </div>
+				  </div>
+				  <div class ="fragment danger" style ="text-align:left;"><font size="6">"Clusters: A bridge across the disciplines of physics and chemistry"</font><div class="left-bottom-under-image"><font size="4">P. Jena et al., Proc. Natl. Acad. Sci. U.S.A. 103, 10560–10569 (2006).</font></div></div>
+			  </div>
+			  
+			      </div>
+			    </div>
+		   	    <span class="fragment" data-zoom-trigger='{"selector": "#wie_gemacht_my_ass", "scale": 1}'></span>
+		</section>
+		<section><!-- <section data-name ="Cluster im Altag"> -->
+			<h2>Cluster im Alltag</h2>
+			<div class="col-container">
+			    <div class="col-one" style="margin-left:15px">
+				<h4 class = "fragment">Cluster in der Antike </h4>
+				<h5 class = "fragment">"Lykurgos-Becher" Rom ca. 4.Jahrhundert</h5>
+				<br>
+				<div class="fragment" width ="50%;">
+				    <div class ="image"><img src="pictures/Cluster-in-real-life/sticker1.webp" width="55%" >
+					<br>
+				        <img src="pictures/Cluster-in-real-life/sticker.webp" width="55%" ><br>
+					 <div style="float:left;line-height:0.6;"><font size="5">"British Museum" www.britishmuseum.org</font></div>
+				    </div>
+				</div>
+			    </div>
+			    <div class="col-two">
+				<h4 class = "fragment">Cluster als Katalysator</h4>
+			    </br>
+				<div class="fragment" width ="100%;">
+				    <img   src="pictures/Cluster-in-real-life/Cluster-catalyse.svg" width="95%"/>
+				    <div class="left-bottom-under-image"><font size="5"> H. Wang et al., Nat Catal. 4, 418–424 (2021)</font></div>
+				</div>
+		                 </br>
+				 <h4 class = "fragment">Cluster in der Medizin</h4>
+				 
+				 <div class="fragment" width ="100%;">
+				     <h5>Gadalonium (Gd) in C<sub>60</sub>-Cluster-Käfig alt Kontrast-Mittel für MRT</h5>
+				     <img  src="pictures/Cluster-in-real-life/Cluster-in-medizin2.svg" width="80%"/>
+				     <!-- <object  type="image/svg+xml" data="pictures/Cluster-in-real-life/MRT.svg" width="50%"></object> -->
+				     <br>
+				     <div class="left-bottom-under-image"><font size="5"> F. D’Souza et al., Handbook of Carbon Nano Materials vol. 5 (2014)</font></div>
+				 </div>
+				 
+			    </div>
+			    <div class="col-two">
+				<div id="cluster_tv_my_ass">
+				    <h4 class = "fragment"><button class ="my_zoom_button" type="button" value="" onclick="zoomElement('#cluster_tv_my_ass');" ><i>&#x1F50E;&#xFE0E;</i></button> Cluster in TVs (Quantum Dots QDs)</h4>
+				    <span class="fragment" data-zoom-trigger='{"selector": "#cluster_tv_my_ass", "scale": 1}'></span>
+				    <div class="fragment" width ="100%;">
+				    <img src="pictures/Cluster-in-real-life/Qunatum-dots-spectra.svg" width="90%"/>
+				    <div class="left-bottom-under-image"><font size="5">Z. Wen et al., J. Phys. D: Appl. Phys. 54, 213002 (2021)</font></div>
+				</div>
+				</div>
+				<span class="fragment" data-zoom-trigger='{"selector": "#cluster_tv_my_ass", "scale": 1}'></span>
+				<div class="fragment" width ="100%;">
+				    <img src="pictures/Cluster-in-real-life/Qunatum-dots-tv.svg" width="70%"/>
+				    <!-- <div class="left-bottom-under-image"><font size="3.5">Z. Wen et al., J. Phys. D: Appl. Phys. 54, 213002 (2021)</font></div> -->
+				</div>
+			    </div>
+			    
+			</div>
+			<aside class ="notes" data-markdown>
+			    1. LGP: Light Guide Plate:  ist eine transparente Acrylplatte aus optischem PMMA, PS oder einer Kombination aus zwei Harzen (damals als MS-Materialien bekannt).
+			    Es funktioniert, indem es Licht von den Rändern lenkt und es gleichmäßig über die obere Oberfläche des Panels verteilt.
+			    2. QDEFs: QD Enhancement Films
+			    3. OLED: Organic Light-Emitting Diod:
+			    4. EL QDs: Electro Luminescent Quantum Dots: 
+			</aside>
+		</section>
+		</section>
+		     <section data-name ="Motivation">
+			 <h2>Motivation</h2>
+			 <div class="col-container">	    
+			    <div class="col-one">
+				<h4 class = "fragment">Photoemission an Blei Cluster</h4>
+				<div class="fragment">
+					    <img src="pictures/Motivation/core_hoel_screening_sep1.svg" width="85%"/>c
+					    <div class="left-bottom-under-image" style="margin-left:10px;"><font size="4">V. Senz et al., Physical Review Letters. 102, 3–6 (2009)</font></div>
+				</div>
+			    </div>
+			    <div class="col-two">
+				<h4 class = "fragment">Photoemission Grund-Prinzip</h4>
+				    <div class="r-stack" width ="100%;">
+					<object  class = "fragment current-visible"  type="image/svg+xml" data="pictures/Motivation/Photoemission_still_frame.svg" width="100%"></object>
+					<object class = "fragment" id ="svgPhotoemission" type="image/svg+xml" data="pictures/Motivation/Photoemission.svg" width="100%"></object>
+				    </div>
+				    <div class="r-stack" width ="100%;">
+					<img  class = "fragment current-visible" src="pictures/Motivation/Pb_levels.svg" width="80%"></object>
+					<img  class = "fragment" src="pictures/Motivation/Pb_levels-spin-bahn.svg" width="80%"></object>
+				    </div>
+			    </div>
+			    <div class="col-one">
+				<h4 class = "fragment">Blei Cluster nach Größe</h4>
+				<div class="r-stack" width ="100%;">
+				    <div class = "fragment current-visible" >
+					<object    type="image/svg+xml" data="pictures/Motivation/core_hoel_screening_sep2_still_frame.svg" width="100%"></object>
+					<div class="left-bottom-under-image"><font size="4">V. Senz et al., Physical Review Letters. 102, 3–6 (2009)</font></div>
+				    </div>
+				    <div class = "fragment" id ="fragemnt_Pb_corehole">
+					<object   id="svgPb_corehole" type="image/svg+xml" data="pictures/Motivation/core_hoel_screening_sep2.svg" width="100%"></object>
+					<div class="left-bottom-under-image"><font size="4">V. Senz et al., Physical Review Letters. 102, 3–6 (2009)</font></div>
+				    </div>
+				    
+				</div>
+				
+			    </div>
+			</div>
+		     </section>
+	
+		     <section data-name="Experiment">
+			 <section>
+			     <h2><button class ="my_zoom_button" type="button" value="" onclick="zoomElement('#vacuum_uber_my_ass');" ><i>&#x1F50E;&#xFE0E;</i></button>Ultra-Hoch-Vakuum Anlage</h2>
+			     <div class="col-container">	    
+				 <div class="col-two r-stack">
+				     <div style="float:left;margin:0 0 0  50px; font-size:29.5pt;" >
+					 <ul>
+					     <li>Ultra reine Umgebung (Druck ~ 1x10<sup>-10</sup> mbar)</li>
+					     <li> Hohe Preparations-Temperaturen sind möglich (bis 1000°C)</li>
+					     <li> Messen bei Tiefen-Temperaturen bis 10K (~ -260°C)</li>
+					 </ul>
+				     </div>		
+				     <img  style="float:left;margin:200px 0 0 100px;" class ="fragment "  data-fragment-index="1 2" src="pictures/Experiment/facility.svg" width="80%"/>
+				     <img  style="float:left;margin:200px 0 0 100px;" class ="fragment " data-fragment-index="3"  src="pictures/Experiment/facility-sample.svg" width="80%"/>
+				 </div>
+				 <div class="col-one" style="margin:0 0px 0 0;">
+				     
+				     <div  id="vacuum_uber_my_ass" class="r-stack"  width ="100%;">
+					 <!-- <object class="fragment current-visible" type="image/svg+xml" data="pictures/Experiment/vakuum-im-ueberblick-poster.svg" width="75%"/></object> -->
+					
+					 <div class="fragment current-visible" >
+					     <img   src="pictures/Experiment/vakuum-im-ueberblick-poster.svg" width="70%"/>
+					     
+					     <div class="left-bottom-under-image"><font size="3.5"> Paul Scherrer Institut, Villingen, CH</font></div>
+					 </div>
+					 <!-- <span class="fragment" data-zoom-trigger='{"selector": "#vacuum_uber_my_ass", "scale": 1}'></span> --> 
+					 <div id ="hold_my_ass" class = "fragment">
+					     <div id="ups_my_ass">
+						 <h4 ><button class ="my_zoom_button" type="button" value="" onclick="zoomElement('#ups_my_ass');" ><i>&#x1F50E;&#xFE0E;</i></button>Ultraviolet-Photo-Emission (UPS)</h4>
+						 <object  id="animate_my_ass_photoemission" type="image/svg+xml" data="pictures/Experiment/Photoemission.svg" width="90%"/></object>
+					     </div>
+					     <div id="element-to-zoom" >
+						 <h4 class = "fragment" style="font-size:80%"><button class ="my_zoom_button" type="button" value="" onclick="zoomElement('#element-to-zoom');" ><i>&#x1F50E;&#xFE0E;</i></button>Scanning-Tunneling-Microscope (STM)</h4>
+						 <div class="r-stack">
+						     <img  class = "fragment current-visible" src="pictures/Experiment/stm.svg"" width="90%" /> 
+						     <!-- <object class = "fragment"  type="image/svg+xml" data="pictures/Experiment/stm.svg" width="90%"/></object> -->
+						     <img  class = "fragment current-visible" src="pictures/Experiment/stm_lateral_structure_broadening-still-frame.svg"" width="90%" /> 
+						     <object id="stm-bradening" class = "fragment"  type="image/svg+xml" data="pictures/Experiment/stm_lateral_structure_broadening.svg" width="90%"/></object> 
+						 </div>
+					     </div>
+					 </div>
+					 <!-- <span class="fragment" data-zoom-trigger='{"selector": "#element-to-zoom", "scale": 1}'></span>
+					      <span class="fragment" data-zoom-out-trigger></span>
+					 -->	 
+				     </div>
+				 </div>
+			     </div>
+			 </section>
+			 <section>
+			     
+			     <h2>Untersuchte Systeme</h2> <!-- C<sub>60</sub>, Bismuth und Al<sub>2</sub>O<sub>3</sub>||Ni<sub>3</sub>Al -->
+			     <div class="col-container">	    
+				 <div class="col-one" style="margin-left:15px">
+				     <div id="c60_system_my_ass">
+					 <h4 class="fragment style="margin: 0 0 0 0" ><button class ="my_zoom_button" type="button" value="" onclick="zoomElement('#c60_system_my_ass');" ><i>&#x1F50E;&#xFE0E;</i></button>Fullerene C<sub>60</sub></h4>
+					 <div class ="r-stack" > 
+					     <img class="fragment current-visible"   src="pictures/Samples/fulleren.svg" width="100%"/></img>
+					     <img  class="fragment current-visible"  src="pictures/Samples/fulleren-sides.svg" width="100%"/></img>
+					     <img  class="fragment"  src="pictures/Samples/fulleren-sides-energy.svg" width="100%"/></img>
+					     
+					     <!-- <object class="fragment"  type="image/svg+xml" data="pictures/Samples/fulleren_flat.svg" width="50%"/></object> -->
+					     
+					 </div>
+				     </div>
+				     <div id="bi_system_my_ass">
+					 <h4 class="fragment"><button class ="my_zoom_button" type="button" value="" onclick="zoomElement('#bi_system_my_ass');" ><i>&#x1F50E;&#xFE0E;</i></button>Bismuth</h4>
+					 <div class ="r-stack" > 
+					     <img class="fragment current-visible"   src="pictures/Samples/bi_crystall.svg" width="100%"/></img>
+					     <img class="fragment current-visible"   src="pictures/Samples/bi_crystall-bandstr.svg" width="100%"/></img>
+					     <img class="fragment"   src="pictures/Samples/bi_crystall-bandstr-energy.svg" width="100%"/></img>
+					     
+					 </div>
+					 <div class="fragment">
+					 <img  style="margin-left:10px"  src="pictures/Samples/Wismuth-sticker.webp" width="30%"/></img><br>
+					 <div class="left-bottom-under-image"><font size="3.5"> https://en.wikipedia.org/wiki/File:Wismut_Kristall_und_1cm3_Wuerfel.jpg</font></div>
+					 </div>
+				     </div>
+				 </div>
+				 <div class="col-one">
+				     <div id="al_substrat_my_ass">
+					 <h4 class="fragment"> <button class ="my_zoom_button" type="button" value="" onclick="zoomElement('#al_substrat_my_ass');" ><i>&#x1F50E;&#xFE0E;</i></button> Substrat:  Al<sub>2</sub>O<sub>3</sub>||Ni<sub>3</sub>Al(111)</h4>
+					 <div class ="r-stack" > 
+					     <img class="fragment current-visible"   src="pictures/Samples/Al2O3_quer.svg" width="100%"/></img>
+					     <img class="fragment"   src="pictures/Samples/Al2O3_quer-oberflaeche.svg" width="100%"/></img>
+					 </div>
+				     </div>
+				     <div id="ablauf_my_ass">
+					 <h4 class="fragment" >  <button class ="my_zoom_button" type="button" value="" onclick="zoomElement('#ablauf_my_ass');" ><i>&#x1F50E;&#xFE0E;</i></button>Experiment Ablauf</h4>
+					 <div class ="r-stack" > 
+					     <img class="fragment current-visible"   src="pictures/Samples/Ablauf-Depo.svg" width="100%"/></img>
+					     <img class="fragment current-visible"   src="pictures/Samples/Ablauf-Tempern.svg" width="100%"/></img>
+					     <img class="fragment current-visible"   src="pictures/Samples/Ablauf-Messen.svg" width="100%"/></img>
+					     <img class="fragment"   src="pictures/Samples/Ablauf-Repeat.svg" width="100%"/></img>
+					 </div>
+				     </div>
+				 </div> 
+			 </section>
+			 <section>			     
+			     <h2 style="margin-bottom:0pxgf">Resultate</h2>
+			     <div class = 'col-container'>
+				 <div class = 'col-one' style="margin: 0px 0px 0px 10px">
+				     <h3 class="fragment" style="margin: -50px 0px 0px 0px" >Messung</h3>
+				     <div id ="c60_messung_my_ass">
+					 <h4 class="fragment" ><button class ="my_zoom_button" type="button" value="" onclick="zoomElement('#c60_messung_my_ass');" ><i>&#x1F50E;&#xFE0E;</i></button> C<sub>60</sub> Fullerene</h4>
+					 <img class="fragment"   src="pictures/Results/C60-Mesung-Result2.svg" width="100%"/></img>
+					 <!-- <object class="fragment"  type="image/svg+xml" data="pictures/Results/C60-Mesung-Result.svg" width="50%"/></object> -->
+				     </div>
+				     <div id="bi_messung_my_ass">
+					 <h4 class="fragment" ><button class ="my_zoom_button" type="button" value="" onclick="zoomElement('#bi_messung_my_ass');" ><i>&#x1F50E;&#xFE0E;</i></button> Bismuth</h4>
+					 <img class="fragment"   src="pictures/Results/Bismuth-Mesung-Result2.svg" width="89%"/></img>
+				     </div>
+				 </div>
+				 <div class = 'col-one' style="margin: 0px 0px 0px 0px">
+				     <h3 class="fragment" style="margin: -50px 0px 0px 0px"  >Model</h3>
+				     <div id="c60_model_my_ass">
+					 <h4 class="fragment" ><button class ="my_zoom_button" type="button" value="" onclick="zoomElement('#c60_model_my_ass');" ><i>&#x1F50E;&#xFE0E;</i></button>C<sub>60</sub> Fullerene</h4>
+					 <!-- <img class="fragment"   src="pictures/Results/c60-model.svg" width="100%"/></img>-->
+					 <div class ="r-stack" > 
+					     <img class="fragment current-visible"   src="pictures/Results/c60-model-C60-free.svg" width="90%"/></img>
+					     <img class="fragment current-visible"   src="pictures/Results/c60-model-C60-surface.svg" width="90%"/></img>
+					     <img class="fragment current-visible"   src="pictures/Results/c60-model-C60-neighbours.svg" width="90%"/></img>
+					     <img class="fragment"   src="pictures/Results/c60-model-C60-Udiff.svg" width="90%"/></img>
+					 </div>
+				     </div>
+				     <h4 class="fragment" ><button class ="my_zoom_button" type="button" value="" onclick="zoomElement('#zoom_me_hard');" ><i>&#x1F50E;&#xFE0E;</i></button>Bismuth</h4>
+				     <div id ="zoom_me_hard">
+					 <div class ="r-stack" >
+					     <span class="fragment" data-zoom-trigger='{"selector": "#zoom_me_hard", "scale": 1}'></span>
+					     
+					  <!-- <object class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismuth-model2.svg" width="100%"></object> -->
+					 <object  class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismuth-Model00.svg" width="70%"></object>
+					 <object  id='Bi_result_clustersize' class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismuth-Model00-moving.svg" width="70%"></object>
+					 <!-- <object class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismuth-Model01.svg" width="70%"></object> -->
+					 <object class ="fragment "  type="image/svg+xml" data="pictures/Results/Bismuth-Model01-dataPoints.svg" width="70%"></object>
+				     </div>
+				     <div class ="r-stack" >
+					 <object class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel0.svg" width="70%"></object>
+					 <object class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel1.svg" width="70%"></object>
+					 <object id='Bi_kugel_distortion' class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel2.svg" width="70%"></object>
+					 <object id='Bi_kugel_distortion2' class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel3.svg" width="70%"></object>
+					 <object  class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel4.svg" width="70%"></object>
+					 <object  id='Bi_kugel_distortion3' class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel5.svg" width="70%"></object>
+					 <object  id='Bi_kugel_distortion4' class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel6.svg" width="70%"></object>
+					 <object   id='Bi_kugel_distortion5' class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel7.svg" width="70%"></object>
+					 <object   class ="fragment"  type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel8.svg" width="70%"></object>
+				     </div>
+				     </div>
+				 </div>
+			     </div>			     
+			 </section>
+		     </section>
+		     
+		     <!-- <section data-name="Setup">
+			  <h2>Ultra Hoch Vakuum Anlage</h2>
+			  </section> 
+			  
+			  <section data-name="Techniken">
+			  <h2></h2>
+			  <div class = 'container'>
+			  <div class = 'col'>
+			  <h2>STM</h2>
+			  
+			  </div>
+			  <div class = 'col'>
+			  <h2>UPS</h2>
+			  
+			  </div>
+			  </div>
+			  </section>
+			  
+			  <section data-name="Resultate">
+			  <h2>Titel</h2>
+			  </section> -->
+		     
+		     <section data-name="Zusammenfassung">
+			 <section>
+			     <h2>Zusammenfassung</h2>
+			     <div class="col-container" >
+				 <div class="col-one fragment" style="margin-left:10px">
+				     <img    src="pictures/ZusammenFassung/Modele-Ueberblick.svg" width="80%"/></img>
+				     <img    src="pictures/ZusammenFassung/Pb-Bi-Vergleich.svg" width="100%"/></img>
+				     <div class="left-bottom-under-image"><font size="3"> V. Senz et al., Physical Review Letters. 102, 3–6 (2009)</font></div>
+				 </div>
+				 <div class="col-one" style="margin-left:0px">
+				     <h3 class = "fragment ">Resultate</h3>
+				     <ul class = "fragment " style="font-size:35px;padding:0">
+					 <li>Elektrostatischer Zugang scheint die Systeme gut zu beschreiben</li>
+					 <li>Relativ einfache Methode die Größen Verteilung mit beinhaltet</li>
+					 <li>C<sub>60</sub> "konstante" Größe  <br>&#8594; Energie-Shift durch  Nachbar-Abschirmung</li>
+					 <li>Bismuth variable Größe  <br>&#8594; Energie-Shift durch Wechselwirkung mit Ni<sub>3</sub>Al(111)</li>
+				     </ul>
+				     <h3 class = "fragment ">Probleme</h3>
+				     <ul class = "fragment " style="font-size:35px;padding:0">
+					 <li>Interesante Größen-Bereich nicht erreichbar mit der Aufdampf-Methode</li>
+					 <li>Einfluss von Al-Oxide Schicht-Dicke könnte eine Rolle spielen<br>&#8594; Systematische Untersuchungen fehlen</li>
+				     </ul>
+				     <h3 class = "fragment ">Ausblick</h3>
+				     <ul class = "fragment " style="font-size:35px;padding:0">
+					 <li>Massen selektierten Clustern<br>&#8594; Zugang zur kleineren Clustern <br>&#8594; Schmalere größen Verteilung</li>
+					 
+				     </ul>		     
+				     
+				 </div>
+			     </div>
+			 </section>
+			 	 
+			 <section>
+			     <h2>Cluster: Potenzial<sup>3</sup></h2>
+			     <img class="fragment"   src="pictures/ZusammenFassung/Cluster-Sind-Cool2.svg" width="100%"/></img>
+			     <div class="col-container" ">	    
+				 <div class="col-one" style="margin-left:0px">
+				     <h3 class = "fragment ">Vorteile:</h3>
+				     <ul class = "fragment " style="font-size:35px">
+					 <li>Drastisch andere Eigenschaften als gleicher Bulk-Material</li>
+					 <li>Mögliche Einstellung der Eigenschaft durch die Größen-Änderung</li>
+					 <li>Vielfalt an Cluster und Cluster-Kombination auf verschieden Materialien</li>
+				     </ul>
+				 </div>
+				 <div class="col-one">
+				     <h3 class = "fragment ">Probleme:</h3>
+				     <ul class = "fragment " style="font-size:35px;padding:0">
+					 <li>Zugang erschwärt durch die Größe</li>
+					 <li>Grössen Kontrolle ist schwierig (Aggregation)</li>
+					 <li>Technologische Prozesse fehlen (Skalierungs-Problem)</li>
+				     </ul>
+				     
+				 </div>
+			     </div>
+			     <!-- <div class="col-container" ">	    
+				  <div class="col-one" style="margin-left:0px">
+				  <img class="fragment"   src="pictures/ZusammenFassung/Cluster-Sind-Cool.svg" width="85%"/></img> 
+				  </div>
+				  <div class="col-one">
+				  <h3 class = "fragment ">Vorteile:</h3>
+				  <ul class = "fragment " style="font-size:30px">
+				  <li>Drastisch andere Eigenschaften als gleicher Bulk material</li>
+				  <li>Mögliche Einstellung der Eigneschaft durch die Grössen änderung</li>
+				  </ul>
+				  <h3 class = "fragment ">Probleme:</h3>
+				  <ul class = "fragment " style="font-size:30px;padding:0">
+				  <li>Zugang erschwärt durch die Größe</li>
+				  <li>Grössen Kontrolle ist schwirig (Aggregation)</li>
+				  <li>Technologische Prozesse fehlen (Skalierungs-Problem)</li>
+				  </ul>
+				  
+				  </div>
+				  </div> -->
+			 </section>
+			 
+		     </section> 
+		     
+		
+		</section>
+	      </div>
+	  </div>
+	  <script src="dist/reveal.js"></script>
+	  <script src="plugin/notes/notes.js"></script>
+	  <script src="plugin/markdown/markdown.js"></script>
+	  <script src="plugin/highlight/highlight.js"></script>
+	  <script src="plugin/math/math.js"></script>
+	  <script src="plugin/simplemenu/simplemenu.js"></script>
+	  <script src="plugin/zoom/zoom.js"></script>
+	  <script src="plugin/zoom2/zoom.js"></script>
+	  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+	  <script src="http://www.x3dom.org/download/dev/x3dom.js"></script>
+	  <script>
+		 // More info about initialization & config:
+		 // - https://revealjs.com/initialization/
+		 // - https://revealjs.com/config/
+		 Reveal.initialize({
+		     hash: true,
+		     center: false,
+		     slideNumber: "c/t",
+		     disableLayout: true,
+		     navigationMode: 'default',
+		     // Transition style
+		     transition: 'none', // none/fade/slide/convex/concave/zoom
+		     // Transition speed
+		     transitionSpeed: 'fast', // default/fast/slow
+		     // Learn about plugins: https://revealjs.com/plugins/
+		     plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX, Simplemenu, RevealZoom],
+		     zoomLevel: 2,
+		     //disableLayout: false,
+		     progress: false,
+		     controls:false,
+		     // Determines where controls appear, "edges" or "bottom-right"
+		     controlsLayout: 'bottom-right',
+		     // Visibility rule for backwards navigation arrows; "faded", "hidden"
+		     // or "visible"
+		     //controlsBackArrows: 'faded',
+
+		 });
+	   Reveal.configure({
+	       keyboard: {
+		   90: function() { zoom.out(); } // 'Z' key
+	       }
+	   });
+	   function reloadSvgAnimation(SVGname) {
+	       var object = document.getElementById(SVGname);
+		     var data = object.getAttribute('data');
+		     object.setAttribute('data', ''); // Clear the data attribute
+		     object.setAttribute('data', data); // Reset it to trigger reload
+		 }
+		 function kill_scroll_bar(html_id) {//remove scroll bar from html
+		     var object = document.getElementById(html_id);
+		     var doc = object.contentDocument;
+		   
+		     doc.documentElement.style.overflow = 'hidden';
+		     doc.body.style.overflow = 'hidden';
+		    
+		 }
+
+	   /* Reveal.addEventListener('fragmentshown', function(event) {
+	      // Check if the shown fragment has a specific class or ID
+	      if (event.fragment.classList.contains('zoom-trigger')) {
+	      // Find the element to zoom (could be the fragment itself or another element)
+	      var elementToZoom = document.getElementById('element-to-zoom');
+	      
+	      // //Apply zoom effect make item bigger
+	      //elementToZoom.style.transition = 'transform 0.5s ease-in-out';
+	      //elementToZoom.style.transform = 'scale(1.5)'; // Adjust scale factor as needed
+	      zoom.to({
+	      level: 0.5,
+	      element: elementToZoom
+	      });
+	      }
+	      }); */
+	   function zoomElement(selector, scale = 1) {
+	       const element = document.querySelector(selector);
+	       if (element) {
+		   zoom.to({
+		       element: element,
+		       pan: false,
+		       scale: scale
+		   });
+	       }
+	       //console.log(zoom.zoomLevel());
+	   }
+	   Reveal.addEventListener('fragmentshown', function(event) {
+	       if (event.fragment.dataset.zoomTrigger) {
+               const params = JSON.parse(event.fragment.dataset.zoomTrigger);
+		   zoomElement(params.selector, params.scale);
+	       }
+	   });
+
+	   document.addEventListener('DOMContentLoaded', function() {
+            // Initialize Reveal.js
+            Reveal.initialize();
+
+            // Function to toggle the custom cursor class
+            function toggleCursor(event) {
+                if (event.key === 'c') {
+                    document.querySelector('.reveal').classList.toggle('custom-cursor');
+                }
+            }
+
+            // Add event listener for keydown event when Reveal.js is ready
+            Reveal.addEventListener('ready', function(event) {
+                document.addEventListener('keydown', toggleCursor);
+            });
+           });
+	   
+	   Reveal.on('fragmentshown', function(event) {
+	       if (event.fragment.id === 'fragment_Hg-clusters') {
+		   reloadSvgAnimation('svgHg-clusters');
+	       }
+	       if (event.fragment.id === 'fragment_Ar-clusters') {
+		   reloadSvgAnimation('svgAr-clusters');
+	       }
+	       if (event.fragment.id === 'svgPhotoemission') { //funkt nicht die scheisse!!! vermutlich wegen
+		   reloadSvgAnimation('svgPhotoemission');
+		     }
+	       if (event.fragment.id === 'fragemnt_Pb_corehole') {
+		   reloadSvgAnimation('svgPb_corehole');
+	       }
+	       if (event.fragment.id === 'Bi_result_clustersize') {
+		   reloadSvgAnimation('Bi_result_clustersize');
+	       }
+	       if (event.fragment.id === 'hold_my_ass') {
+		   reloadSvgAnimation('animate_my_ass_photoemission');
+	       }
+	       if (event.fragment.id === 'Bi_kugel_distortion') {
+		   reloadSvgAnimation('Bi_kugel_distortion');
+	       }
+	       if (event.fragment.id === 'stm-bradening') {
+		   reloadSvgAnimation('stm-bradening');
+	       }
+
+	       
+	       if (event.fragment.id === 'Bi_kugel_distortion2') {
+		   reloadSvgAnimation('Bi_kugel_distortion2');
+	       }
+	        if (event.fragment.id === 'Bi_kugel_distortion3') {
+		   reloadSvgAnimation('Bi_kugel_distortion3');
+		}
+	       
+	       if (event.fragment.id === 'Bi_kugel_distortion5') {
+		   reloadSvgAnimation('Bi_kugel_distortion5');
+		}
+	       
+	       if (event.fragment.id === 'svgPVD_growth') {
+		   reloadSvgAnimation('svgPVD_growth');
+	       }
+	       if (event.fragment.id === 'html_myAss') {
+		   kill_scroll_bar('html_myAss');
+	       }
+	       if (event.fragment.id === 'html_myAss2') {
+		   kill_scroll_bar('html_myAss2');
+	       }
+	       if (event.fragment.id === 'html_myAss3') {
+		   kill_scroll_bar('html_myAss3');
+	       }
+	       if (event.fragment.id === 'html_myAss4') {
+		   kill_scroll_bar('html_myAss4');
+	       }
+	       if (event.fragment.id === 'html_myAss5') {
+		   kill_scroll_bar('html_myAss5');
+	       }
+	   });
+	   
+	  </script>
+	  
+	</body>
+</html>
+<style type="text/css">
+ /* 1. Style header/footer <div> so they are positioned as desired. */
+ #header-left {
+     position: absolute;
+     top: 6%;
+     left: 10px;
+ }
+ #header-right {
+     position: absolute;
+     top: 6%;
+     right: 10px;
+ }
+ #footer-left {
+     position: absolute;
+     bottom: 25px;
+     left: 20px;
+ }
+ #myname-upper-right {
+     position: absolute;
+g     top: 0px;
+     right: 5px;
+ }
+ /* HEADER FOOTER END */
+ 
+</style>
+
+<!-- 2. Create hidden header/footer <div> -->
+<div id="hidden" style="display:none;">
+    <div id="header">
+        <div id="header-left"><img src="pictures/Logo/tud_logo_rgb_white_font.png" alt="TU Dortmund"  height="45"></div>
+        <div id="header-right">
+	  <img src="pictures/Logo/Logo_Fakultaet_Physik_de_rgb_white_font.svg" alt="Fakultaet Physik"  height="55">
+	  <img src="pictures/Logo/e1a-Logo_backup.svg" alt="E1a"  height="55">
+	</div>
+        <div id="myname-upper-right"><font size="5"> Disputations Vortrat &nbsp;&nbsp; Alexander Kononov &nbsp;&nbsp;&nbsp19.07.2024</font></div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id ="zoom_me_hard">
+					 <div class ="r-stack" >
+				    
+				    <object  class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismuth-Model00.svg" width="100%"></object>
+				    <object  id='Bi_result_clustersize' class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismuth-Model00-moving.svg" width="100%"></object>
+				    <object  class ="fragment current-visible" data-index="6" type="image/svg+xml" data="pictures/Results/Bismuth-Model00-still-frame.svg" width="100%"></object>
+				    <object  class ="fragment current-visible" data-index="7" type="image/svg+xml" data="pictures/Results/Bismuth-Model00-still-frame.svg" width="100%"></object>
+				    <object class ="fragment current-visible" data-index="8"  type="image/svg+xml" data="pictures/Results/Bismuth-modell-ellipsoid.svg" width="100%"></object>
+				    <object class ="fragment current-visible" data-index="8"  type="image/svg+xml" data="pictures/Results/Bismuth-modell-ellipsoid.svg" width="100%"></object>
+				    <object class ="fragment current-visible"  data-index="9"  type="image/svg+xml" data="pictures/Results/Bismuth-Model01-dataPoints.svg" width="100%"></object>
+				</div>
+				<h6 class="fragment"><u>Ausgangspunkt:</u> N Atome bestimmt auf &#177; 5% </h6>
+				
+				<div class ="r-stack" >
+				    
+				    <object class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel1.svg" width="100%"></object>
+				    
+				    <object id='Bi_kugel_distortion2' class ="fragment current-visible" type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel3.svg" width="100%"></object>
+				    <object class ="fragment current-visible" type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel3.svg" width="100%"></object>
+				    <object class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel3.svg" width="100%"></object>
+				    <object  class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel4.svg" width="100%"></object>
+				    <object  id='Bi_kugel_distortion3' class ="fragment current-visible"   type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel5.svg" width="100%"></object>
+				    <object  id='Bi_kugel_distortion4' class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel6.svg" width="100%"></object>
+				    <object   id='Bi_kugel_distortion5' class ="fragment current-visible"  type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel7.svg" width="100%"></object>
+				    <object   class ="fragment"  type="image/svg+xml" data="pictures/Results/Bismut-kugel-ellipse-kugel8.svg" width="100%"></object>
+				</div>
+			    </div>
+
+
+
+
+
+
+
+
+
+				    

@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="121.7355mm"
+   height="126.94279mm"
+   viewBox="0 0 121.7355 126.94279"
+   version="1.1"
+   id="svg17695"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="[backup]Ar_seven_geo_transitions_animated2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview17697"
+     pagecolor="#686868"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.060799"
+     inkscape:cx="170.6261"
+     inkscape:cy="275.73555"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs17692">
+    <linearGradient
+       id="linearGradient6226"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#cbcbcb;stop-opacity:1;"
+         offset="0"
+         id="stop6218" />
+      <stop
+         style="stop-color:#af1dbe;stop-opacity:1;"
+         offset="0.16448148"
+         id="stop6220" />
+      <stop
+         style="stop-color:#7303c0;stop-opacity:1;"
+         offset="0.39661112"
+         id="stop6222" />
+      <stop
+         style="stop-color:#080549;stop-opacity:1;"
+         offset="1"
+         id="stop6224" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient4-5-3"
+       cx="0.90614653"
+       cy="-1.0130345"
+       fx="0.90614653"
+       fy="-1.0130345"
+       r="2.6882246"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.4735135,0,0,4.816741,-275.86848,44.649296)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient4-5-3-9"
+       cx="0.91625965"
+       cy="-1.1090587"
+       fx="0.91625965"
+       fy="-1.1090587"
+       r="2.6882246"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.3320933,0,0,4.6922899,-282.23483,68.040373)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient4-5-3-1"
+       cx="1.0336094"
+       cy="-1.4428068"
+       fx="1.0336094"
+       fy="-1.4428068"
+       r="2.6882246"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.4002374,0,0,4.7522573,-287.5011,73.371451)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient4-5-3-3"
+       cx="0.79621768"
+       cy="-1.0936821"
+       fx="0.79621768"
+       fy="-1.0936821"
+       r="2.6882246"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.5108618,0,0,4.8496078,-258.31152,71.553046)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient4-5-3-97"
+       cx="0.73835683"
+       cy="-1.1104568"
+       fx="0.73835683"
+       fy="-1.1104568"
+       r="2.6882246"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.5070085,0,0,4.8462168,-260.37154,95.23617)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient4-5-3-19"
+       cx="1.0336094"
+       cy="-1.4428068"
+       fx="1.0336094"
+       fy="-1.4428068"
+       r="2.6882246"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.5190405,0,0,4.8568051,-266.4856,100.9451)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient4-5-3-36"
+       cx="1.0336094"
+       cy="-1.4428068"
+       fx="1.0336094"
+       fy="-1.4428068"
+       r="2.6882246"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.4141728,0,0,4.7645206,-290.30826,97.160288)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient56"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.1708136,0,0,4.5503623,-99.59403,63.443341)"
+       cx="0.82802916"
+       cy="-1.4799355"
+       fx="0.82802916"
+       fy="-1.4799355"
+       r="2.6882246" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient57"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.1708136,0,0,4.5503623,-99.882223,32.931426)"
+       cx="1.0122004"
+       cy="-1.2307391"
+       fx="1.0122004"
+       fy="-1.2307391"
+       r="2.6882246" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient58"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.1708136,0,0,4.5503623,-74.725,50.090137)"
+       cx="0.85528386"
+       cy="-1.547206"
+       fx="0.85528386"
+       fy="-1.547206"
+       r="2.6882246" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient59"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.1708136,0,0,4.5503623,-115.31046,78.724815)"
+       cx="0.90159106"
+       cy="-1.396885"
+       fx="0.90159106"
+       fy="-1.396885"
+       r="2.6882246" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient60"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.1708136,0,0,4.5503623,-84.43753,78.599129)"
+       cx="0.85405976"
+       cy="-1.3913211"
+       fx="0.85405976"
+       fy="-1.3913211"
+       r="2.6882246" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient61"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.1708136,0,0,4.5503623,-124.83468,50.318151)"
+       cx="1.0336094"
+       cy="-1.4428068"
+       fx="1.0336094"
+       fy="-1.4428068"
+       r="2.6882246" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient62"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.1708136,0,0,4.5503623,-99.74507,53.468194)"
+       cx="0.80670339"
+       cy="-1.4725938"
+       fx="0.80670339"
+       fy="-1.4725938"
+       r="2.6882246" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient63"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.6092474,0,0,4.936188,-77.946148,141.57489)"
+       cx="0.97156757"
+       cy="-1.3220706"
+       fx="0.97156757"
+       fy="-1.3220706"
+       r="2.6882246" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient64"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.6395742,0,0,4.9628758,-78.689806,99.15185)"
+       cx="1.0858849"
+       cy="-1.180016"
+       fx="1.0858849"
+       fy="-1.180016"
+       r="2.6882246" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient65"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.8449641,0,0,5.1436208,-63.952901,118.66244)"
+       cx="0.98422837"
+       cy="-1.3038695"
+       fx="0.98422837"
+       fy="-1.3038695"
+       r="2.6882246" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient66"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.3565084,0,0,4.7137754,-101.66318,142.4442)"
+       cx="0.90159106"
+       cy="-1.396885"
+       fx="0.90159106"
+       fy="-1.396885"
+       r="2.6882246" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient67"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.9854189,0,0,5.2672223,-55.994351,142.97347)"
+       cx="0.85405976"
+       cy="-1.3913211"
+       fx="0.85405976"
+       fy="-1.3913211"
+       r="2.6882246" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient68"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.7844268,0,0,5.0903473,-95.415819,118.92859)"
+       cx="1.0336094"
+       cy="-1.4428068"
+       fx="1.0336094"
+       fy="-1.4428068"
+       r="2.6882246" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient69"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.7642257,0,0,5.0725703,-78.298558,125.26815)"
+       cx="1.0594584"
+       cy="-1.2582384"
+       fx="1.0594584"
+       fy="-1.2582384"
+       r="2.6882246" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient4-5-3-1-7"
+       cx="0.40541199"
+       cy="-1.3104639"
+       fx="0.40541199"
+       fy="-1.3104639"
+       r="2.6882246"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.4002374,0,0,4.7522573,-431.88736,1.9169168)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient4-5-3-1-4"
+       cx="0.3401781"
+       cy="-1.1713005"
+       fx="0.3401781"
+       fy="-1.1713005"
+       r="2.6882246"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.4002374,0,0,4.7522573,-454.28232,10.674436)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient4-5-3-1-43"
+       cx="0.32634014"
+       cy="-1.2779185"
+       fx="0.32634014"
+       fy="-1.2779185"
+       r="2.6882246"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.4002374,0,0,4.7522573,-453.08726,34.265274)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient4-5-3-1-431"
+       cx="0.57248586"
+       cy="-1.2391506"
+       fx="0.57248586"
+       fy="-1.2391506"
+       r="2.6882246"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.4002374,0,0,4.7522573,-442.09208,28.644764)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient4-5-3-1-2"
+       cx="0.45774916"
+       cy="-1.2773749"
+       fx="0.45774916"
+       fy="-1.2773749"
+       r="2.6882246"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.4002374,0,0,4.7522573,-430.12673,21.899355)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient4-5-3-1-48"
+       cx="0.4285315"
+       cy="-1.3763398"
+       fx="0.4285315"
+       fy="-1.3763398"
+       r="2.6882246"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.4002374,0,0,4.7522573,-429.02219,47.171771)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6226"
+       id="radialGradient4-5-3-1-26"
+       cx="0.50183386"
+       cy="-1.1499767"
+       fx="0.50183386"
+       fy="-1.1499767"
+       r="2.6882246"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(5.4002374,0,0,4.7522573,-450.29841,55.094106)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-65.034829,-23.870784)">
+    <g
+       id="g1"
+       inkscape:label="g1"
+       transform="translate(-1.0330489,0.09112697)"
+       opacity="0.2">
+      <animate
+         id="opac_one0"
+         attributeName="opacity"
+         begin="0s;opac_four2.end"
+         values="0.2;1"
+         dur="1.5s"
+         fill="freeze" />
+      <animate
+         id="opac_one"
+         attributeName="opacity"
+         begin="opac_one0.end"
+         values="1;0.2"
+         dur="1.5s"
+         fill="freeze" />
+      <circle
+         style="fill:url(#radialGradient56);fill-opacity:1;stroke:none;stroke-width:0.153102;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.22482, 0.612409"
+         id="circle2-2"
+         cx="-95.982651"
+         cy="59.337311"
+         r="5.0457387"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 123.13135,45.460861 97.82279,28.931169"
+         id="path8975"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 93.32966,29.692586 72.35337,45.33379"
+         id="path8955" />
+      <circle
+         style="fill:url(#radialGradient57);fill-opacity:1;stroke:none;stroke-width:0.153102;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.22482, 0.612409"
+         id="circle2-76"
+         cx="-96.270844"
+         cy="28.825396"
+         r="5.0457387"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 79.65662,74.171642 71.71079,46.555449"
+         id="path8971"
+         sodipodi:nodetypes="cc" />
+      <circle
+         style="fill:url(#radialGradient58);fill-opacity:1;stroke:none;stroke-width:0.153102;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.22482, 0.612409"
+         id="circle2-8"
+         cx="-71.113617"
+         cy="45.984108"
+         r="5.0457387"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 81.29752,75.972018 111.25581,75.74999"
+         id="path8969" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 113.8957,73.451433 8.03071,-27.141646"
+         id="path8973" />
+      <circle
+         style="fill:url(#radialGradient59);fill-opacity:1;stroke:none;stroke-width:0.153102;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.22482, 0.612409"
+         id="circle2-64"
+         cx="-111.69906"
+         cy="74.618782"
+         r="5.0457387"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <circle
+         style="fill:url(#radialGradient60);fill-opacity:1;stroke:none;stroke-width:0.153102;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.22482, 0.612409"
+         id="circle2-71"
+         cx="-80.826141"
+         cy="74.493095"
+         r="5.0457387"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 74.43216,46.520613 21.49812,3.064062"
+         id="path8957"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 94.86481,51.938316 83.52998,71.595"
+         id="path8961"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 97.82785,51.856708 109.69642,71.47245"
+         id="path8963"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 99.18862,57.342761 18.91893,-9.710049"
+         id="path9030" />
+      <circle
+         style="fill:url(#radialGradient61);fill-opacity:1;stroke:none;stroke-width:0.153102;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.22482, 0.612409"
+         id="circle2-4"
+         cx="-121.22328"
+         cy="46.212124"
+         r="5.0457387"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 97.25914,50.02136 20.56619,-3.599233"
+         id="path8959"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 108.83978,71.117818 98.03467,60.252608"
+         id="path8965"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 84.38288,71.550732 94.28669,60.270505"
+         id="path8967"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 95.98866,46.764092 96.16411,30.002373"
+         id="path9026"
+         sodipodi:nodetypes="cc" />
+      <circle
+         style="fill:url(#radialGradient62);fill-opacity:1;stroke:none;stroke-width:0.153102;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.22482, 0.612409"
+         id="circle2-43"
+         cx="-96.13369"
+         cy="49.362164"
+         r="5.0457387"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 92.56845,57.067523 74.74949,47.762612"
+         id="path9028" />
+    </g>
+    <g
+       id="g2"
+       transform="translate(23.334489,6.7523531)"
+       inkscape:label="g2"
+       opacity="0.1">
+      <animate
+         id="opac_two"
+         attributeName="opacity"
+         begin="opac_one.end"
+         values="0.1;1"
+         dur="1.5s"
+         fill="freeze" />
+      <animate
+         id="opac_two2"
+         attributeName="opacity"
+         begin="opac_two.end"
+         values="1;0.1"
+         dur="1.5s"
+         fill="freeze" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 60.742671,114.05083 12.197,21.00165"
+         id="path8961-9"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 89.843243,112.96314 76.300841,135.34291"
+         id="path8963-7"
+         sodipodi:nodetypes="cc" />
+      <circle
+         style="fill:url(#radialGradient63);fill-opacity:1;stroke:none;stroke-width:0.166084;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.32867, 0.664335"
+         id="circle2-2-9"
+         cx="-74.028564"
+         cy="137.1207"
+         r="5.4735675"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 74.167741,117.83841 0.17545,-21.644522"
+         id="path9026-5"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 89.249816,114.60758 74.950421,95.254685"
+         id="path8975-4"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 74.904841,94.830018 61.366381,111.79714"
+         id="path8955-9"
+         sodipodi:nodetypes="cc" />
+      <circle
+         style="fill:url(#radialGradient64);fill-opacity:1;stroke:none;stroke-width:0.166981;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.33586, 0.667927"
+         id="circle2-76-0"
+         cx="-74.75103"
+         cy="94.673584"
+         r="5.5031605"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 60.020471,113.84084 91.12803,113.54169"
+         id="path8957-5"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 51.455551,135.3195 8.285,-21.45622"
+         id="path8971-9"
+         sodipodi:nodetypes="cc" />
+      <circle
+         style="fill:url(#radialGradient65);fill-opacity:1;stroke:none;stroke-width:0.173063;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.38451, 0.692252"
+         id="circle2-8-1"
+         cx="-59.870659"
+         cy="114.02108"
+         r="5.7035823"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 52.393131,137.15054 18.782498,0.55672 m 6.416123,-0.23745 17.391277,-0.11809"
+         id="path8969-7"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 98.717688,137.83669 89.744622,114.7658"
+         id="path8973-7"
+         sodipodi:nodetypes="cc" />
+      <circle
+         style="fill:url(#radialGradient66);fill-opacity:1;stroke:none;stroke-width:0.1586;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.26881, 0.634402"
+         id="circle2-64-1"
+         cx="-97.922081"
+         cy="138.1907"
+         r="5.2269421"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <circle
+         style="fill:url(#radialGradient67);fill-opacity:1;stroke:none;stroke-width:0.177222;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.41778, 0.708887"
+         id="circle2-71-1"
+         cx="-51.814049"
+         cy="138.22058"
+         r="5.8406396"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 76.736849,119.45516 15.702754,-5.8897"
+         id="path9030-7"
+         sodipodi:nodetypes="cc" />
+      <circle
+         style="fill:url(#radialGradient68);fill-opacity:1;stroke:none;stroke-width:0.171271;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.37017, 0.685083"
+         id="circle2-4-6"
+         cx="-91.37587"
+         cy="114.3353"
+         r="5.6445093"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 94.556467,135.55552 75.871131,121.04771"
+         id="path8965-3"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 56.008561,134.4361 15.89043,-12.17463"
+         id="path8967-6"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 74.066651,133.57005 0.28811,-12.90426"
+         id="path8967-6-4"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 71.748341,119.91931 -9.93144,-4.97213"
+         id="path9028-3"
+         sodipodi:nodetypes="cc" />
+      <circle
+         style="fill:url(#radialGradient69);fill-opacity:1;stroke:none;stroke-width:0.170673;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.36539, 0.682691"
+         id="circle2-43-6"
+         cx="-74.272728"
+         cy="120.6909"
+         r="5.6247969"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+    </g>
+    <g
+       id="g3"
+       inkscape:label="g3"
+       transform="translate(-111.41069,45.813631)"
+       opacity="0.1">
+      <animate
+         id="opac_tree"
+         attributeName="opacity"
+         begin="opac_two.end"
+         values="0.1;1"
+         dur="1.5s"
+         fill="freeze" />
+      <animate
+         id="opac_tree2"
+         attributeName="opacity"
+         begin="opac_tree.end"
+         values="1;0.1"
+         dur="1.5s"
+         fill="freeze" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 259.66865,90.012948 276.59507,66.32051"
+         id="path42" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 265.83577,94.956174 281.87192,71.71928"
+         id="path43" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 282.00958,91.968149 260.37932,90.360996"
+         id="path44"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 285.86495,89.439048 278.20243,66.5403"
+         id="path45" />
+      <circle
+         style="fill:url(#radialGradient4-5-3-9);fill-opacity:1;stroke:none;stroke-width:0.157877;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.26302, 0.63151"
+         id="circle45"
+         cx="-278.51077"
+         cy="63.806282"
+         r="5.2031174"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 277.84982,59.589604 272.33695,40.359847"
+         id="path46"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#7203bf;fill-opacity:1;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 282.35677,67.186623 -2.9491,-3.535938"
+         id="path47"
+         sodipodi:nodetypes="cc" />
+      <circle
+         style="fill:url(#radialGradient4-5-3);fill-opacity:1;stroke:none;stroke-width:0.162065;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.29652, 0.648259"
+         id="circle47"
+         cx="-272.04565"
+         cy="40.302906"
+         r="5.3411169"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <circle
+         style="fill:url(#radialGradient4-5-3-97);fill-opacity:1;stroke:none;stroke-width:0.163056;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.30446, 0.652226"
+         id="circle48"
+         cx="-256.52533"
+         cy="90.863174"
+         r="5.3738012"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 254.80489,70.794886 0.43395,16.971269"
+         id="path48"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 257.58262,67.095758 16.90017,-2.979876"
+         id="path49"
+         sodipodi:nodetypes="cc" />
+      <circle
+         style="fill:url(#radialGradient4-5-3-3);fill-opacity:1;stroke:none;stroke-width:0.16317;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.30537, 0.652683"
+         id="circle49"
+         cx="-254.4626"
+         cy="67.177002"
+         r="5.3775616"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 254.88184,70.166584 7.50881,22.577008"
+         id="path50"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 257.62318,92.662535 1.71526,1.910678"
+         id="path51" />
+      <circle
+         style="fill:url(#radialGradient4-5-3-19);fill-opacity:1;stroke:none;stroke-width:0.163413;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.30731, 0.653651"
+         id="circle51"
+         cx="-262.63098"
+         cy="96.562561"
+         r="5.3855424"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <circle
+         style="fill:url(#radialGradient4-5-3-36);fill-opacity:1;stroke:none;stroke-width:0.160308;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.28246, 0.641231"
+         id="circle52"
+         cx="-286.52682"
+         cy="92.861015"
+         r="5.2832112"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 274.37543,44.034435 8.27236,21.026884"
+         id="path52" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 268.43277,41.794297 256.04204,64.32579"
+         id="path53" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 257.60049,68.40494 22.94533,0.580369"
+         id="path54" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 266.68935,97.211038 16.66472,-3.23731"
+         id="path55"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 286.60276,89.018928 284.43177,70.564215"
+         id="path56"
+         sodipodi:nodetypes="cc" />
+      <circle
+         style="fill:url(#radialGradient4-5-3-1);fill-opacity:1;stroke:none;stroke-width:0.159895;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.27916, 0.639581"
+         id="circle56"
+         cx="-283.72946"
+         cy="69.083244"
+         r="5.2696128"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+    </g>
+    <g
+       id="g4"
+       inkscape:label="g4"
+       transform="rotate(-110.72332,307.91943,135.66735)"
+       opacity="0.1">
+      <animate
+         id="opac_four"
+         attributeName="opacity"
+         begin="opac_tree2.end"
+         values="0.1;1"
+         dur="1.5s"
+         fill="freeze" />
+      <animate
+         id="opac_four2"
+         attributeName="opacity"
+         begin="opac_four.end"
+         values="1;0.1"
+         dur="1.5s"
+         fill="freeze" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 439.13539,26.90893 6.63927,22.115833"
+         id="path77" />
+      <circle
+         style="fill:url(#radialGradient4-5-3-1-26);fill-opacity:1;stroke:none;stroke-width:0.159895;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.27916, 0.639581"
+         id="circle56-9"
+         cx="-446.52673"
+         cy="50.805904"
+         r="5.2696128"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 426.78522,44.495644 16.77367,6.1677"
+         id="path86"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 429.084,-1.2935338 9.91672,26.2952278"
+         id="path76" />
+      <circle
+         style="fill:url(#radialGradient4-5-3-1-7);fill-opacity:1;stroke:none;stroke-width:0.159895;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.27916, 0.639581"
+         id="circle56-7"
+         cx="-428.11569"
+         cy="-2.3712935"
+         r="5.2696128"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 426.85756,41.951066 20.64025,-10.91949"
+         id="path87" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 448.54364,48.003467 1.74777,-15.166954"
+         id="path78"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 451.56679,27.709634 450.62791,7.5915273"
+         id="path79" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 449.23686,4.646591 431.37202,-2.5578879"
+         id="path80"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 426.9697,0.33714386 425.67468,15.152188"
+         id="path81"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 425.94107,19.773252 -1.13409,21.579842"
+         id="path82"
+         sodipodi:nodetypes="cc" />
+      <circle
+         style="fill:url(#radialGradient4-5-3-1-431);fill-opacity:1;stroke:none;stroke-width:0.159895;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.27916, 0.639581"
+         id="circle56-89"
+         cx="-438.32047"
+         cy="24.356558"
+         r="5.2696128"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 427.6189,40.414942 8.72469,-13.270506"
+         id="path83"
+         sodipodi:nodetypes="cc" />
+      <circle
+         style="fill:url(#radialGradient4-5-3-1-48);fill-opacity:1;stroke:none;stroke-width:0.159895;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.27916, 0.639581"
+         id="circle56-2"
+         cx="-425.25058"
+         cy="42.883568"
+         r="5.2696128"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 441.08294,20.830663 449.19175,7.9416333"
+         id="path85"
+         sodipodi:nodetypes="cc" />
+      <circle
+         style="fill:url(#radialGradient4-5-3-1-4);fill-opacity:1;stroke:none;stroke-width:0.159895;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.27916, 0.639581"
+         id="circle56-4"
+         cx="-450.51068"
+         cy="6.3862295"
+         r="5.2696128"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 428.8939,16.509227 446.8775,7.6196906"
+         id="path84"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#5748f4;stroke-width:1.453;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 448.13074,29.306575 428.51507,18.851868"
+         id="path88"
+         sodipodi:nodetypes="cc" />
+      <circle
+         style="fill:url(#radialGradient4-5-3-1-2);fill-opacity:1;stroke:none;stroke-width:0.159895;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.27916, 0.639581"
+         id="circle56-0"
+         cx="-426.35513"
+         cy="17.611151"
+         r="5.2696128"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+      <circle
+         style="fill:url(#radialGradient4-5-3-1-43);fill-opacity:1;stroke:none;stroke-width:0.159895;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.27916, 0.639581"
+         id="circle56-8"
+         cx="-449.31561"
+         cy="29.977066"
+         r="5.2696128"
+         inkscape:label="depo-Atom5"
+         transform="scale(-1,1)">
+        <animateMotion
+           id="motion5"
+           begin="motion4.end;"
+           dur="2s"
+           fill="freeze"
+           style="fill:url(#radialGradient4)">
+          <mpath
+             href="#path4" />
+        </animateMotion>
+      </circle>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.29167px;line-height:5.9531px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.89739;stroke-opacity:1"
+       x="160.51881"
+       y="28.851339"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-size:5.29167px;line-height:5.9531px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.89739"
+         x="160.51881"
+         y="28.851339">Argon Cluster n =7</tspan></text>
+  </g>
+</svg>

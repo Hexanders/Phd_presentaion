@@ -1,0 +1,178 @@
+<html>
+    <head>
+        <title>ASE atomic visualization</title>
+        <link rel="stylesheet" type="text/css"             href="https://www.x3dom.org/release/x3dom.css"></link>
+	<script type="text/javascript"             src="https://www.x3dom.org/release/x3dom.js"></script>
+	
+    </head>
+    <body>
+        <X3D >
+
+<!--Inserting Generated X3D Scene-->
+<scene>
+<h2 style = "color:white;margin:0;">n=13</h2>
+  <viewpoint position="0 0 48">
+    <group/>
+  </viewpoint>
+  <transform  id="boxTransform" translation="-3.4983943667193413 -3.4983943667193413 -3.4983943667193413">
+    <group>
+      <group>
+        <transform translation="0 0 0">
+          <shape>
+            <appearance>
+              <material diffuseColor="0 0 0"/>
+            </appearance>
+          </shape>
+        </transform>
+        <transform translation="0.0 0.0 6.996788733438683">
+          <shape>
+            <appearance>
+              <material diffuseColor="0 0 0"/>
+            </appearance>
+          </shape>
+        </transform>
+        <transform translation="0 0 0">
+          <shape>
+            <appearance>
+              <material diffuseColor="0 0 0"/>
+            </appearance>
+          </shape>
+        </transform>
+        <transform translation="0.0 6.996788733438683 0.0">
+          <shape>
+            <appearance>
+              <material diffuseColor="0 0 0"/>
+            </appearance>
+          </shape>
+        </transform>
+      </group>
+      <group>
+        <transform translation="3.4983943667193413 3.4983943667193413 3.4983943667193413">
+          <shape>
+            <appearance>
+              <material diffuseColor="0.62 0.31 0.71"/>
+            </appearance>
+            <sphere radius="1.48"/>
+          </shape>
+        </transform>
+        <transform translation="5.996788733438683 3.4983943667193413 1.9543017307855193">
+          <shape>
+            <appearance>
+              <material diffuseColor="0.62 0.31 0.71"/>
+            </appearance>
+            <sphere radius="1.48"/>
+          </shape>
+        </transform>
+        <transform translation="5.996788733438683 3.4983943667193413 5.042487002653163">
+          <shape>
+            <appearance>
+              <material diffuseColor="0.62 0.31 0.71"/>
+            </appearance>
+            <sphere radius="1.48"/>
+          </shape>
+        </transform>
+        <transform translation="1.0 3.4983943667193413 1.9543017307855193">
+          <shape>
+            <appearance>
+              <material diffuseColor="0.62 0.31 0.71"/>
+            </appearance>
+            <sphere radius="1.48"/>
+          </shape>
+        </transform>
+        <transform translation="1.0 3.4983943667193413 5.042487002653163">
+          <shape>
+            <appearance>
+              <material diffuseColor="0.62 0.31 0.71"/>
+            </appearance>
+            <sphere radius="1.48"/>
+          </shape>
+        </transform>
+        <transform translation="1.9543017307855193 5.996788733438683 3.4983943667193413">
+          <shape>
+            <appearance>
+              <material diffuseColor="0.62 0.31 0.71"/>
+            </appearance>
+            <sphere radius="1.48"/>
+          </shape>
+        </transform>
+        <transform translation="5.042487002653163 5.996788733438683 3.4983943667193413">
+          <shape>
+            <appearance>
+              <material diffuseColor="0.62 0.31 0.71"/>
+            </appearance>
+            <sphere radius="1.48"/>
+          </shape>
+        </transform>
+        <transform translation="1.9543017307855193 1.0 3.4983943667193413">
+          <shape>
+            <appearance>
+              <material diffuseColor="0.62 0.31 0.71"/>
+            </appearance>
+            <sphere radius="1.48"/>
+          </shape>
+        </transform>
+        <transform translation="5.042487002653163 1.0 3.4983943667193413">
+          <shape>
+            <appearance>
+              <material diffuseColor="0.62 0.31 0.71"/>
+            </appearance>
+            <sphere radius="1.48"/>
+          </shape>
+        </transform>
+        <transform translation="3.4983943667193413 1.9543017307855193 5.996788733438683">
+          <shape>
+            <appearance>
+              <material diffuseColor="0.62 0.31 0.71"/>
+            </appearance>
+            <sphere radius="1.48"/>
+          </shape>
+        </transform>
+        <transform translation="3.4983943667193413 5.042487002653163 5.996788733438683">
+          <shape>
+            <appearance>
+              <material diffuseColor="0.62 0.31 0.71"/>
+            </appearance>
+            <sphere radius="1.48"/>
+          </shape>
+        </transform>
+        <transform translation="3.4983943667193413 1.9543017307855193 1.0">
+          <shape>
+            <appearance>
+              <material diffuseColor="0.62 0.31 0.71"/>
+            </appearance>
+            <sphere radius="1.48"/>
+          </shape>
+        </transform>
+        <transform translation="3.4983943667193413 5.042487002653163 1.0">
+          <shape>
+            <appearance>
+              <material diffuseColor="0.62 0.31 0.71"/>
+            </appearance>
+            <sphere radius="1.48"/>
+          </shape>
+        </transform>
+      </group>
+    </group>
+  </transform>
+</scene>
+<!--End of Inserted Scene-->
+
+        </X3D>
+	<script>
+        // JavaScript to rotate the X3D node
+        let angle = 0;
+
+        function rotate() {
+            angle += 0.005; // Increment the angle
+            if (angle > 2 * Math.PI) angle = 0; // Reset the angle to prevent overflow
+            document.getElementById('boxTransform').setAttribute('rotation', '-13 -13 -13 ' + angle); // Rotate around Y-axis
+            requestAnimationFrame(rotate); // Schedule the next frame
+        }
+
+        // Start the rotation
+        rotate();
+    </script>
+
+    </body>
+</html>
+

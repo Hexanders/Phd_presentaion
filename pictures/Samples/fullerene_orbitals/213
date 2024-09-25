@@ -1,0 +1,2042 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+<!-- jQuery UI -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- jQuery CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Custom Style -->
+<link rel="stylesheet" href="/static/style.css">
+
+
+<script src="/static/jsmol/JSmol.min.js"></script>
+
+<script>
+jmol_isReady = function(applet)
+{
+    Jmol._getElement(applet, "appletdiv").style.border="1px solid lightgray";
+    Jmol.script(jmolApplet0, "set displaycellparameters false;")
+    Jmol.script(jmolApplet0,
+    "load /default/cif/213.cif { 1 1 1 };");
+    }
+</script>
+
+<script src="/static/summary.js"></script>
+
+
+
+
+
+    <title>
+Molecular Orbital Database - Summary
+</title>
+
+  </head>
+
+  <body >
+    <div class="container" style="padding: 0px;">
+      <div class="row">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-right">
+
+              <li>
+                <a href="https://homepage.uni-graz.at/en/peter.puschnig">Peter Puschnig's Web Page</a>
+              </li>
+    
+	      <li> 
+                <a href="https://homepage.uni-graz.at/en/peter.puschnig/research/online-databases/">
+                More information on this database</a>
+              </li>
+    
+              <li> 
+                <a href="https://www.uni-graz.at/en/imprint/">
+                Imprint</a>
+              </li>
+
+
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div> <!--end of container-->
+    <div style="text-align:center">
+	    This work is licensed under a
+           <a href="http://creativecommons.org/licenses/by-sa/4.0/"> Creative Commons Attribution-ShareAlike 4.0 International License.</a>
+    </div>
+
+
+<div class="container">
+
+<h1>
+C<sub>60</sub>
+</h1>
+
+<div class="panel-group">
+
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse0">
+        Basic properties
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse0"
+    class="panel-collapse collapse in">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+        <th>Item</th>
+    
+        <th></th>
+    
+    </tr>
+</thead>
+
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td>   </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> Download hdf5-file </td>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/hdf5/000213.hdf5" target="_blank">000213.hdf5</a> </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+
+<div class="row">
+    <center>
+        <div id="appdiv"></div>
+    
+    </center>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-4">
+        
+        <div class="btn-group pull-right">
+            <button type="button" class="btn btn-link dropdown-toggle btn-sm"
+            data-toggle="dropdown">
+                Unit cell <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a onclick="repeatCell(1, 1, 1);">1x1x1</a></li>
+                <li><a onclick="repeatCell(1, 1, 1);">
+                1x1x1</a></li>
+            </ul>
+        </div>
+        <div class="btn-group pull-right">
+            <button type="button" class="btn btn-link dropdown-toggle btn-sm"
+            data-toggle="dropdown">
+                Download <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="/default/xyz/213">xyz</a></li>
+                <li><a href="/default/sqlite/213">db</a></li>
+                <li><a href="/default/json/213">json</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+</div>
+
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse1">
+        Orbital Energies
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse1"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/orbitalenergies.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_184" target="_blank">LUMO+3</a> </td>
+    
+        <td> a" </td>
+    
+        <td> -1.833 eV </td>
+    
+        <td> 0.0 e </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_183" target="_blank">LUMO+2</a> </td>
+    
+        <td> a' </td>
+    
+        <td> -3.046 eV </td>
+    
+        <td> 0.0 e </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_182" target="_blank">LUMO+1</a> </td>
+    
+        <td> a" </td>
+    
+        <td> -3.047 eV </td>
+    
+        <td> 0.0 e </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_181" target="_blank">LUMO</a> </td>
+    
+        <td> a' </td>
+    
+        <td> -3.047 eV </td>
+    
+        <td> 0.0 e </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_180" target="_blank">HOMO</a> </td>
+    
+        <td> a" </td>
+    
+        <td> -6.030 eV </td>
+    
+        <td> 2.0 e </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_179" target="_blank">HOMO-1</a> </td>
+    
+        <td> a' </td>
+    
+        <td> -6.030 eV </td>
+    
+        <td> 2.0 e </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_178" target="_blank">HOMO-2</a> </td>
+    
+        <td> a" </td>
+    
+        <td> -6.030 eV </td>
+    
+        <td> 2.0 e </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_177" target="_blank">HOMO-3</a> </td>
+    
+        <td> a' </td>
+    
+        <td> -6.030 eV </td>
+    
+        <td> 2.0 e </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_176" target="_blank">HOMO-4</a> </td>
+    
+        <td> a" </td>
+    
+        <td> -6.030 eV </td>
+    
+        <td> 2.0 e </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_175" target="_blank">HOMO-5</a> </td>
+    
+        <td> a' </td>
+    
+        <td> -7.355 eV </td>
+    
+        <td> 2.0 e </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_174" target="_blank">HOMO-6</a> </td>
+    
+        <td> a" </td>
+    
+        <td> -7.355 eV </td>
+    
+        <td> 2.0 e </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_173" target="_blank">HOMO-7</a> </td>
+    
+        <td> a' </td>
+    
+        <td> -7.355 eV </td>
+    
+        <td> 2.0 e </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_172" target="_blank">HOMO-8</a> </td>
+    
+        <td> a" </td>
+    
+        <td> -7.355 eV </td>
+    
+        <td> 2.0 e </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_171" target="_blank">HOMO-9</a> </td>
+    
+        <td> a' </td>
+    
+        <td> -7.355 eV </td>
+    
+        <td> 2.0 e </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_170" target="_blank">HOMO-10</a> </td>
+    
+        <td> a' </td>
+    
+        <td> -7.383 eV </td>
+    
+        <td> 2.0 e </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_169" target="_blank">HOMO-11</a> </td>
+    
+        <td> a" </td>
+    
+        <td> -7.383 eV </td>
+    
+        <td> 2.0 e </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse2">
+        HOMO-11
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse2"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-11.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-11kmap.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_169" target="_blank">HOMO-11</a> </td>
+    
+        <td> -7.383 eV </td>
+    
+        <td> occupation=2.0 e </td>
+    
+        <td> orbital number=169 </td>
+    
+        <td> symmetry=a" </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse3">
+        HOMO-10
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse3"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-10.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-10kmap.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_170" target="_blank">HOMO-10</a> </td>
+    
+        <td> -7.383 eV </td>
+    
+        <td> occupation=2.0 e </td>
+    
+        <td> orbital number=170 </td>
+    
+        <td> symmetry=a' </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse4">
+        HOMO-9
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse4"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-9.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-9kmap.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_171" target="_blank">HOMO-9</a> </td>
+    
+        <td> -7.355 eV </td>
+    
+        <td> occupation=2.0 e </td>
+    
+        <td> orbital number=171 </td>
+    
+        <td> symmetry=a' </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse5">
+        HOMO-8
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse5"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-8.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-8kmap.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_172" target="_blank">HOMO-8</a> </td>
+    
+        <td> -7.355 eV </td>
+    
+        <td> occupation=2.0 e </td>
+    
+        <td> orbital number=172 </td>
+    
+        <td> symmetry=a" </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse6">
+        HOMO-7
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse6"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-7.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-7kmap.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_173" target="_blank">HOMO-7</a> </td>
+    
+        <td> -7.355 eV </td>
+    
+        <td> occupation=2.0 e </td>
+    
+        <td> orbital number=173 </td>
+    
+        <td> symmetry=a' </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse7">
+        HOMO-6
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse7"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-6.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-6kmap.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_174" target="_blank">HOMO-6</a> </td>
+    
+        <td> -7.355 eV </td>
+    
+        <td> occupation=2.0 e </td>
+    
+        <td> orbital number=174 </td>
+    
+        <td> symmetry=a" </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse8">
+        HOMO-5
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse8"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-5.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-5kmap.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_175" target="_blank">HOMO-5</a> </td>
+    
+        <td> -7.355 eV </td>
+    
+        <td> occupation=2.0 e </td>
+    
+        <td> orbital number=175 </td>
+    
+        <td> symmetry=a' </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse9">
+        HOMO-4
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse9"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-4.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-4kmap.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_176" target="_blank">HOMO-4</a> </td>
+    
+        <td> -6.030 eV </td>
+    
+        <td> occupation=2.0 e </td>
+    
+        <td> orbital number=176 </td>
+    
+        <td> symmetry=a" </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse10">
+        HOMO-3
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse10"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-3.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-3kmap.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_177" target="_blank">HOMO-3</a> </td>
+    
+        <td> -6.030 eV </td>
+    
+        <td> occupation=2.0 e </td>
+    
+        <td> orbital number=177 </td>
+    
+        <td> symmetry=a' </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse11">
+        HOMO-2
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse11"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-2.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-2kmap.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_178" target="_blank">HOMO-2</a> </td>
+    
+        <td> -6.030 eV </td>
+    
+        <td> occupation=2.0 e </td>
+    
+        <td> orbital number=178 </td>
+    
+        <td> symmetry=a" </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse12">
+        HOMO-1
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse12"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-1.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO-1kmap.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_179" target="_blank">HOMO-1</a> </td>
+    
+        <td> -6.030 eV </td>
+    
+        <td> occupation=2.0 e </td>
+    
+        <td> orbital number=179 </td>
+    
+        <td> symmetry=a' </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse13">
+        HOMO
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse13"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMO.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/HOMOkmap.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_180" target="_blank">HOMO</a> </td>
+    
+        <td> -6.030 eV </td>
+    
+        <td> occupation=2.0 e </td>
+    
+        <td> orbital number=180 </td>
+    
+        <td> symmetry=a" </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse14">
+        LUMO
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse14"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/LUMO.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/LUMOkmap.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_181" target="_blank">LUMO</a> </td>
+    
+        <td> -3.047 eV </td>
+    
+        <td> occupation=0.0 e </td>
+    
+        <td> orbital number=181 </td>
+    
+        <td> symmetry=a' </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse15">
+        LUMO+1
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse15"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/LUMO+1.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/LUMO+1kmap.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_182" target="_blank">LUMO+1</a> </td>
+    
+        <td> -3.047 eV </td>
+    
+        <td> occupation=0.0 e </td>
+    
+        <td> orbital number=182 </td>
+    
+        <td> symmetry=a" </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse16">
+        LUMO+2
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse16"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/LUMO+2.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/LUMO+2kmap.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_183" target="_blank">LUMO+2</a> </td>
+    
+        <td> -3.046 eV </td>
+    
+        <td> occupation=0.0 e </td>
+    
+        <td> orbital number=183 </td>
+    
+        <td> symmetry=a' </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse17">
+        LUMO+3
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse17"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/LUMO+3.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+	    
+             <img
+                src="/default/plot/213/LUMO+3kmap.png"
+                width="100%">
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> <a href="http://physikmdb.uni-graz.at/cubefiles/000213/C60_MO_184" target="_blank">LUMO+3</a> </td>
+    
+        <td> -1.833 eV </td>
+    
+        <td> occupation=0.0 e </td>
+    
+        <td> orbital number=184 </td>
+    
+        <td> symmetry=a" </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+        <a class="btn-block" data-toggle="collapse"
+        href="#collapse18">
+        Miscellaneous
+        </a>
+        </h4>
+    </div>
+
+    <div id="collapse18"
+    class="panel-collapse collapse ">
+        <div class="panel-body">
+    
+        <div class="col-md-6">
+    
+            <div class="row">
+        
+            
+<table class="table table-striped">
+<!--
+<colgroup>
+<col class="col-xs-7">
+<col class="col-xs-3">
+<col class="col-xs-2">
+</colgroup>
+-->
+<thead>
+    <tr>
+    
+        <th>Items</th>
+    
+        <th></th>
+    
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+    
+        <td> Calculator </td>
+    
+        <td> NWChem </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> Multiplicity </td>
+    
+        <td> 1 </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> Orientation </td>
+    
+        <td> zy </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> Task </td>
+    
+        <td> energy </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> Age </td>
+    
+        <td> 9.310 months </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> Charge </td>
+    
+        <td> 0.000 |e| </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> Chemical formula </td>
+    
+        <td> C60 </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> Uniqe row ID </td>
+    
+        <td> 213 </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> Mass </td>
+    
+        <td> 720.660 au </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> name </td>
+    
+        <td> 6961631645644756924 </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> Random (unique) ID </td>
+    
+        <td> e1f92656f242c47400949cc7f87feddd </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> Username </td>
+    
+        <td> puschnig_peter </td>
+    
+    </tr>
+
+    <tr>
+    
+        <td> Volume of unit-cell </td>
+    
+        <td> 4727.866 Ang<sup>3</sup> </td>
+    
+    </tr>
+
+</tbody>
+</table>
+
+        
+            </div> <!--END ROW-->
+    
+        </div> <!--END col-md-6-->
+    
+        </div> <!--END PANEL BODY-->
+    </div> <!--END COLLAPSE-->
+</div> <!--END PANEL-->
+
+</div> <!--END PANEL GROUP-->
+</div>
+
+
+
+  </body>
+</html>

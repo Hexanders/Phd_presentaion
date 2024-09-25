@@ -1,0 +1,20 @@
+# Define the directory path and file extension
+var dirPath = "file:///home/kononov/Documents/PhD-Presentaion/revealJS/pictures/Samples/fullerene_orbitals/";
+var fileExtension = "cub";  # Adjust the extension based on your files (e.g., "pdb", "mol")
+
+# Load all files from the directory
+var files = listFiles(dirPath, fileExtension);
+
+# Iterate over each file
+for (var i = 0; i < files.length; i++) {
+    var filePath = dirPath + files[i];
+
+    # Load the file
+    load filePath;
+
+    # Create an isosurface with the specified cutoff and colors
+    isosurface cutoff 0.001 sign green magenta;
+
+    # Export the current view to a PNG file with the corresponding filename
+    write image png @files[i] + ".png";
+}

@@ -1,0 +1,330 @@
+.custom-cursor{
+    cursor:url("../pictures/curser_image/my_curser.svg"), auto;
+}
+
+.reveal .slides .present h2{
+    position: relative;
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+.reveal .slides .present h3{
+    position: relative;
+    //text-decoration: underline;
+    margin-top: 0%;
+    padding: 0%;
+    margin-bottom: 0px;
+    //font-size: 80%;
+}
+
+.reveal .slides .present h4{
+    position: relative;
+    //text-decoration: underline;
+    margin-top: 0%;
+    padding: 0%;
+    margin-bottom: 0px;
+    font-size: 90%;
+}
+.reveal .slides .present h5{
+    position: relative;
+    margin-top: 0%;
+    padding: 0%;
+    margin-bottom: 0%;
+    font-size: 60%;
+}
+
+.reveal .slides .present h6{
+    position: relative;
+    margin-top: 0%;
+    padding: 0%;
+    margin-bottom: 0%;
+    font-size: 50%;
+}
+
+.reveal .slide-number {
+	position: absolute;
+	display: block;
+	right: 26px;
+	bottom: 43px;
+	z-index: 61;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 1;
+	color:  #fff;
+	background-color: none;//rgba( 0, 0, 0, 0.4 );
+	padding: 5px;
+}
+.reveal .col-container{
+    display: flex;
+}
+.reveal .col{
+    flex: 1 1 0;
+}
+.reveal .col-one{
+    flex: 1 1 0;
+}
+.reveal .col-two{
+    flex: 2 1 0;
+}
+.reveal .col-tree{
+    flex: 3 1 0;
+}
+.reveal .col-four{
+    flex: 4 1 0;
+}
+.reveal .col-fife{
+    flex: 5 1 0;
+}
+
+
+figure 
+{
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+    /* border: 1px solid red; */
+}
+figcaption {
+  /* border: 1px solid blue; */
+  /* font-family: Verdana, Geneva, sans-serif; */
+  font-size: 60%;
+  position: relative; 
+  width: auto;
+  text-shadow: none;
+  color: white;
+  text-align: center;
+  height: 20px;
+}
+
+/* .fragment.image{ */
+/*     display: flex; */
+/* } */
+
+/* Container holding the image and the text */
+.image-container { /* need to be in div table div tabe-row */
+  display: table-cell; 
+  position: relative;
+  text-align: left;
+}
+:root {
+    --caption_size_image: 45%;
+    --citation_size_image: 30%;
+    --r-block-margin: 0;
+}
+/* Bottom left text */
+.bottom-left {
+  font-size: var(--caption_size_image);
+  position: absolute;
+  bottom: 10px;//30px;
+  left: 0px;//16px;
+}
+
+/* Top left text */
+.top-left {
+    font-size: var(--caption_size_image);
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    font-size: var(--caption_size_image);
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    font-size: var(--caption_size_image);
+    position: absolute;
+    bottom: 30px;
+    right: 16px;
+}
+.citaion-bottom-right {
+    font-size: var(--citation_size_image);
+    position: absolute;
+    bottom: 21px;
+    right: 16px;
+}
+.citaion2-bottom-right {
+    font-size: var(--citation_size_image);
+    position: absolute;
+    bottom: 10px;
+    right: 16px;
+}
+/* Centered text */
+.centered {
+    font-size: var(--caption_size_image);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-bottom {
+    font-size: var(--caption_size_image);
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+}
+.centered-bottom-under-image {
+    font-size: var(--caption_size_image);
+    position: relative;
+    float: right;
+    bottom: 0px;
+}
+.left-bottom-under-image {
+    font-size: var(--caption_size_image);
+    //font-weight: bold;
+    margin-left:10px;
+    line-height:.5;
+    text-align: left;
+    position: relative;
+    float: left;
+    bottom: 0px;
+}
+.katex {
+    font-size: 60% !important;
+}
+table.no-spacing {
+  border-spacing:0; /* Removes the cell spacing via CSS */
+  border-collapse: collapse;  /* Optional - if you don't want to have double border where cells touch */
+}
+.image_in_col{
+    margin: 0;
+    padding:0;
+}
+.simple-gallery {
+  width: 100%;
+  height: 1px;
+  display:flex;
+  width: auto;
+}
+.reveal img{
+    max-width: 300%;
+    max-height: 300%;
+}
+.simple-gallery img {
+  //width: 100%;
+}
+.simple-gallery ul {
+  list-style-type: none;
+  line-height: 0;
+}
+.simple-gallery .simple-gallery--preview {
+    width: 100%;
+    height: 1px;
+    float: left;
+    margin-right: 2%;
+}
+.simple-gallery .simple-gallery--thumbs {
+    width: 100%; 
+  float: right;
+}
+.simple-gallery .simple-gallery--thumbs ul li {
+  margin-bottom: 0%;
+}
+
+.simple-gallery .text-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.imtip {
+  position: absolute;
+  bottom: 200px;
+  right: 0;
+}
+.reveal .fragment.shrink {
+	opacity: 1;
+	visibility: inherit;
+
+	&.visible {
+		transform: scale( 0.1 );
+	}
+}
+
+.reveal p {
+    font-size: 35%;
+}
+.normal-text {
+    font-size: 35%;
+}
+.large-text {
+    font-size: 50%;
+}
+
+.bigger-text {
+    font-size: 55%;
+}
+
+.verybig-text {
+    font-size: 100%;
+}
+
+.huge-text {
+    font-size: 150%;
+}
+
+.danger{
+    //color:#e85a74;
+    font-weight:bold;
+    color:#639A00;
+    
+}
+.bold-txt{
+    font-weight:bold;
+}
+
+/* .my_zoom_button { */
+/*     background-color: transparent; */
+/*     border: none; */
+/*     cursor: pointer; */
+/*     outline: none; */
+/*     padding: 0; /\* Removes default padding *\/ */
+/* } */
+
+/* .my_zoom_button i { */
+/*     font-size: 24px; /\* Adjust the size as needed *\/ */
+/*     color: #000; /\* Change the color as needed *\/ */
+/* } */
+
+/* .my_zoom_button:hover i { */
+/*     color: #007BFF; /\* Color on hover, optional *\/ */
+/* } */
+.my_zoom_button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0; /* Removes default padding */
+    position: relative; /* Ensure proper positioning for pseudo-element */
+}
+
+.my_zoom_button i {
+    font-size: 24px; /* Adjust the size as needed */
+    color: #000; /* Change the color as needed */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.my_zoom_button:hover i {
+    opacity: 1; /* Show icon on hover */
+}
+
+.reveal .slide-number > a[href*='title-slide'] {
+  display: none;
+}
+
+/* .col .r-stack img { */
+/*   transition: opacity 0.5s ease-in-out; */
+/*   opacity: 0; */
+/* } */
+
+/* .col .r-stack img.active { */
+/*   opacity: 1; */
+/* } */
+

@@ -1,0 +1,162 @@
+<section class="present" style="display: block;" data-fragment="4"> 		   
+			<h2>Was ist ein Cluster?</h2>
+			<p class="fragment danger visible" style="font-size:80%;" data-fragment-index="0">Cluster sind verbindungen von mindestens 3 Atomen.</p>			
+			    <div class="col-container">
+				<div class="col-one" style="margin: 0px 0px 0px 10px">
+				    <div id="atom_my_ass">
+					<h3 class="fragment visible" style="right:100px;margin: -30px 0px 0px 0px;" data-fragment-index="1"><button class="my_zoom_button" type="button" value="" onclick="zoomElement('#atom_my_ass');"><i>🔎︎</i></button>Atom</h3>
+					<span class="fragment visible" data-zoom-trigger="{&quot;selector&quot;: &quot;#atom_my_ass&quot;, &quot;scale&quot;: 1}" data-fragment-index="2"></span>
+					
+					<h5 class="fragment visible" data-fragment-index="3">klassisch</h5>
+					<div style="display:flex">
+					    <img class="fragment visible current-fragment" src="pictures/AtomicOrbitals/Atom-as-solar-system.svg" width="100%" data-fragment-index="4">
+					    <div class="r-stack" width="100%;">
+						<img class="fragment current-visible" src="pictures/AtomicOrbitals/Atom-as-solar-system-animate.svg" width="100%" data-fragment-index="5">
+						<h6 class="fragment" data-fragment-index="6">Wenn Atomkern ein Apfel wäre</h6>
+						<img class="fragment current-visible" src="pictures/AtomicOrbitals/red-apple-svgrepo-com.svg" width="70%" data-fragment-index="7">
+						<img class="fragment current-visible" src="pictures/AtomicOrbitals/Dortmund-Innenstadt2.png" width="100%" data-fragment-index="8">
+						<img class="fragment current-visible" src="pictures/AtomicOrbitals/Dortmund-Innenstadt3.png" width="100%" data-fragment-index="9">
+						<img class="fragment" src="pictures/AtomicOrbitals/Dortmund-Innenstadt4.png" width="100%" data-fragment-index="10">
+						<!-- <img class = "fragment shrink"  src="pictures/AtomicOrbitals/Dortmund-Innenstadt2.png" width="30%"> -->
+						<!-- <img class = "fragment current-visible"  src="pictures/AtomicOrbitals/Dortmund-Innenstadt2.png" width="30%"> -->
+			   		    </div>
+					</div>
+					<h5 class="fragment" data-fragment-index="11">quantenmechanisch</h5>
+					
+					<div class="fragment simple-gallery simple-gallery--thumbs" style="width:100%;" data-fragment-index="12">
+					    
+					    <ul>
+						<li class="text-container">
+						    <div>s</div><div></div> <div>p</div> <div></div><div>d</div> 
+						</li>
+						    
+						<li>
+						    <div class="fragment image-container" style="width:33%;" data-fragment-index="13">	 
+							<img class="image_in_col" width="100%" src="pictures/AtomicOrbitals/quantenmechanisch/orbitals/animations/(1, 0, 0)orbital5000-SF8LU8.gif">
+							<div class="top-left">1   0   0</div>
+						    </div>
+						    <div class=" image-container" style="width:33%;">
+						    </div>
+						    <div class=" image-container" style="width:33%;">
+						    </div>
+						    
+						</li>
+						<li>
+						    <div class="fragment image-container" style="width:33%;" data-fragment-index="14">	 
+							<img class="image_in_col" width="100%" src="pictures/AtomicOrbitals/quantenmechanisch/orbitals/animations/(2, 0, 0)orbital5000-SGLW0K.gif">
+							<div class=" top-left">2 0 0</div>
+						    </div>
+						    
+						    <div class="fragment image-container" style="width:33%;" data-fragment-index="15">	 
+							<img class="image_in_col" width="100%" src="pictures/AtomicOrbitals/quantenmechanisch/orbitals/animations/(2, 1, 0)orbital5000-SF8LXD.gif">
+							<div class=" top-left">2 1 0</div>
+						    </div>
+						    <div class=" image-container" style="width:33%;">
+						    </div>
+						</li>
+						<li>
+						    <div class="fragment image-container" style="width:33%;" data-fragment-index="16">	 
+							<img class="image_in_col" width="100%" src="pictures/AtomicOrbitals/quantenmechanisch/orbitals/animations/(3, 0, 0)orbital5000-SGLW3J.gif">
+							<div class="top-left">3 0 0</div>
+						    </div>
+						    <div class="fragment image-container" style="width:33%;" data-fragment-index="17">	 
+							<img class="image_in_col" width="100%" src="pictures/AtomicOrbitals/quantenmechanisch/orbitals/animations/(3, 1, 0)orbital5000-SGLW9W.gif">
+							<div class="top-left">3 1 0</div>
+						    </div>
+						    <div class="fragment image-container" style="width:33%;" data-fragment-index="18">	 
+							<img class="image_in_col" width="100%" src="pictures/AtomicOrbitals/quantenmechanisch/orbitals/animations/(3, 2, 0)orbital5000-SGLWGS.gif">
+							<div class="top-left">3 2 0</div>
+						    </div>
+						</li>
+					    </ul>
+					</div> 
+					
+					
+				    </div>
+				    <span class="fragment" data-zoom-trigger="{&quot;selector&quot;: &quot;#atom_my_ass&quot;, &quot;scale&quot;: 1}" data-fragment-index="19"></span>	    
+				</div>
+				<div class="col-two">
+				    <div id="cluster_my_ass">
+					<h3 class="fragment" style="margin: -10px 0px 0px 0px;" data-fragment-index="20"> <button class="my_zoom_button" type="button" value="" onclick="zoomElement('#cluster_my_ass');"><i>🔎︎</i></button> Cluster</h3>
+					<h4 class="fragment" data-fragment-index="21">Warum so besonders?</h4>
+					<span class="fragment" data-zoom-trigger="{&quot;selector&quot;: &quot;#cluster_my_ass&quot;, &quot;scale&quot;: 1}" data-fragment-index="22"></span>
+					<div class="col-container">
+					    <div class="col-two">
+						<h5 class="fragment" data-fragment-index="23">Cluster VS Bulk:</h5>
+						<div class="col-container">
+						    <div class="col-one">
+							<!-- <ul class = "fragment normal-text">
+							     <li>Eigenschaften ändern sich durch Hinzufügen/Entfernen eines Atoms</li>
+							     <li>Keine regelmäßige Atomanordnung (Polyeder)</li>
+							     
+							     <li>Vielfältige Strukturvariationen</li>
+							     </ul> -->
+							<div class="fragment normal-text danger" data-fragment-index="24"> Änderung der Eigenschaften mit n</div>
+							<div class="fragment normal-text" data-fragment-index="25">n:= Anzahl Atome pro Cluster</div>
+							<div class="fragment r-stack" width="100%;" data-fragment-index="26">
+			<div class="fragment current-visible custom-cursor" data-fragment-index="27">
+			    <object type="image/svg+xml" data="pictures/Cluster-vs-solids_molecules/Hg_sizedepend_still_frame.svg" width="100%"></object>
+			    <div class="left-bottom-under-image"><font size="2.5">K. Rademann et al., Phys. Rev. Lett. 59, 2319–2321 (1987)</font></div>
+			</div>
+			<div class="fragment custom-cursor" id="fragment_Hg-clusters" data-fragment-index="28">
+			    <object id="svgHg-clusters" typecc="image/svg+xml" data="pictures/Cluster-vs-solids_molecules/Hg_sizedepend.svg" width="100%"></object>
+			    <div class="left-bottom-under-image"><font size="2.5">K. Rademann et al., Phys. Rev. Lett. 59, 2319–2321 (1987)</font></div>
+			</div>
+		    </div>
+		    <!-- <div class="fragment normal-text danger ">Ein Atom macht Unterschied</div> 
+			 <div class="fragment normal-text danger">Potenziell tunable</div> 
+		    -->  
+				</div>
+				<div class="col-one">
+				    <div class="fragment normal-text danger" style="margin-bottom:20px;" data-fragment-index="29"> Keine periodische Einheitszelle</div>
+				    
+				    <object class="fragment" id="html_myAss" type="text/html" data="pictures/Cluster-vs-solids_molecules/Bi_2_13.html" width="18%" height="30%" data-fragment-index="30"></object>
+				    <object id="html_myAss2" class="fragment" type="text/html" data="pictures/Cluster-vs-solids_molecules/Bi_3_55.html" width="30%" height="30%" data-fragment-index="31"></object>
+				    <object id="html_myAss3" class="fragment" type="text/html" data="pictures/Cluster-vs-solids_molecules/Bi_4_147.html" width="40%" height="30%" data-fragment-index="32"></object> 
+				    <br> 
+				    
+				    <object id="html_myAss4" class="fragment" type="text/html" data="pictures/Cluster-vs-solids_molecules/Bi_5_309.html" width="45%" height="40%" data-fragment-index="33"></object> 
+				    <object id="html_myAss5" class="fragment" type="text/html" data="pictures/Cluster-vs-solids_molecules/Bi_6_561.html" width="50%" height="40%" data-fragment-index="34"></object>
+				    
+				</div>	  
+			    </div>
+		</div>
+		<div class="col-one">
+		    <h5 class="fragment" data-fragment-index="35">Cluster VS Molekülen:</h5>
+		    <div class="fragment normal-text danger" data-fragment-index="36"> Vielfältige Strukturvariationen </div>
+		    <div class="fragment" id="fragment_Ar-clusters" data-fragment-index="37">
+			<object id="svgAr-clusters" type="image/svg+xml" data="pictures/Cluster-vs-solids_molecules/Ar_seven_geo_transitions_animated2.svg" width="85%"></object>
+			<div class="left-bottom-under-image"><font size="2.5">D. J. Wales et al., J. Chem. Phys. 92, 4283–4295 (1990).</font></div>
+		    </div>
+		</div>
+					</div>
+	    </div> 
+				    <span class="fragment" data-zoom-trigger="{&quot;selector&quot;: &quot;#cluster_my_ass&quot;, &quot;scale&quot;: 1}" data-fragment-index="38"></span>
+				</div>
+		      <span class="fragment" data-zoom-trigger="{&quot;selector&quot;: &quot;#molecule_my_ass&quot;, &quot;scale&quot;: 1}" data-fragment-index="39"></span>
+		      <div class="col-one" style="margin: 0px 10px 0px 0px">
+			  <div id="molecule_my_ass" style="margin: 5px 0px 0px 0px">
+			      
+				  <h3 class="fragment" style="margin: -30px 0px 0px 0px" data-fragment-index="40"><button class="my_zoom_button" type="button" value="" onclick="zoomElement('#molecule_my_ass');"><i>🔎︎</i></button>Molekül</h3>
+				  <span class="fragment" data-zoom-trigger="{&quot;selector&quot;: &quot;#molecule_my_ass&quot;, &quot;scale&quot;: 1}" data-fragment-index="41"></span>
+				  <br>
+				  <div class="r-stack">
+				      <img class="fragment current-visible" src="pictures/MolecularOrbitals/H2O-1.svg" width="100%" data-fragment-index="42">
+				      <img class="fragment current-visible" src="pictures/MolecularOrbitals/H2O-2.svg" width="100%" data-fragment-index="43">
+				      <img class="fragment current-visible" src="pictures/MolecularOrbitals/H2O-3.svg" width="100%" data-fragment-index="44">
+				      <img class="fragment current-visible" src="pictures/MolecularOrbitals/H2O-4.svg" width="100%" data-fragment-index="45">
+				      <img class="fragment current-visible" src="pictures/MolecularOrbitals/H2O-5.svg" width="100%" data-fragment-index="46">
+				      <img class="fragment current-visible" src="pictures/MolecularOrbitals/H2O-6.svg" width="100%" data-fragment-index="47">
+				      <img class="fragment current-visible" src="pictures/MolecularOrbitals/H2O-7.svg" width="100%" data-fragment-index="48">
+				      <img class="fragment current-visible" src="pictures/MolecularOrbitals/H2O-8.svg" width="100%" data-fragment-index="49">
+				      <img class="fragment current-visible" src="pictures/MolecularOrbitals/H2O-8.1.svg" width="100%" data-fragment-index="50">
+				      <img class="fragment current-visible" src="pictures/MolecularOrbitals/H2O-9.svg" width="100%" data-fragment-index="51">
+				      <img class="fragment current-visible" src="pictures/MolecularOrbitals/H2O-10.svg" width="100%" data-fragment-index="52">
+				      <img class="fragment" src="pictures/MolecularOrbitals/H2O-11.svg" width="100%" data-fragment-index="53">
+				  </div>
+			  </div>
+			  
+			      </div>
+			    </div>
+		   	    
+			</section>

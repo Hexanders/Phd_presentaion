@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600">
+  <style>
+    @keyframes draw-reverse {
+      from {
+        stroke-dashoffset: 300;
+      }
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    #HG-IP-path {
+      stroke-dasharray: 300;
+      stroke-dashoffset: 300;
+      animation: draw-reverse 5s linear forwards;
+    }
+  </style>
+  <path
+    d="m 234.3408,46.533806 -40.78285,27.569673 -19.83583,13.383336 -12.53354,6.691668 -8.92698,1.338334 -6.81673,2.676667 -5.44891,4.014996 -4.49897,1.87367 -3.80552,0.803 h -3.27983 l -2.86935,0.803 -2.54109,2.67667 -9.46511,11.242 -8.34844,16.06 -8.099249,16.06001 -6.411964,8.03 -6.055791,8.03"
+    clip-path="url(#p864293fdc6)"
+    style="fill:none;stroke:#d6bf25;stroke-width:1.5;stroke-opacity:1"
+    id="HG-IP-path"
+     />
+</svg>

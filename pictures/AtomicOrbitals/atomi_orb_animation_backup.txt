@@ -1,0 +1,55 @@
+   <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.306887;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 0,0 1.45152,0.50017 c 0,0 -0.11698,0.68951 0.13048,0.78558 0.51802,0.20114 0.78445,-1.20596 1.31135,-1.02938 0.53835,0.18043 -0.10271,1.46585 0.43548,1.64675 0.49988,0.16803 0.74471,-1.13778 1.24621,-0.97467 0.52468,0.17065 -0.0721,1.426807 0.4545,1.591567 0.51259,0.1604 0.73568,-1.186217 1.24668,-1.020797 0.54018,0.17487 -0.10395,1.469567 0.43548,1.646737 0.52936,0.17387 0.77938,-1.240287 1.30232,-1.047917 0.61529,0.226337 -0.22238,1.647027 0.36801,1.932087 0.21065,0.1017 0.62149,-0.32587 0.62149,-0.32587 l 2.92077,1.381838"
+       id="path7577"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccaaaaaaaaacc"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600"
+       inkscape:label="ArrorIncom">
+      <animateMotion
+                  begin="op.begin;op.end+3s"
+		  dur="3s"
+                  >
+	<mpath href="#path4" />
+      </animateMotion>
+    </path>
+    <circle
+       style="fill:#ff8f00;fill-opacity:1;stroke:#ffffff;stroke-width:0.01;stroke-opacity:1"
+       id="path7"
+       r="1.0921602"
+       inkscape:label="electron">
+      <animateMotion
+	  id = "op"
+	  begin = "0s;op.end+3s"
+	  dur="3s"
+	  path="m 226.73059,106.19759 a 11.474389,11.47436 0 0 1 11.47439,11.47436 11.474389,11.47436 0 0 1 -11.47439,11.47436 11.474389,11.47436 0 0 1 -11.47439,-11.47436 11.474389,11.47436 0 0 1 11.47439,-11.47436 z" />
+    </circle>
+    <circle
+       style="fill:#ff8f00;fill-opacity:1;stroke:#ffffff;stroke-width:0.01;stroke-opacity:1"
+       id="path77"
+       r="1.0921602"
+       inkscape:label="electron2">
+      <animateMotion
+	  id = "op2"
+	  begin = "3s;op.end"
+	  dur="3s"
+	  path= "m 226.73008,99.032264 c 7.64025,-10e-7 14.20685,4.596786 17.08497,11.175586 0.9998,2.28531 1.55451,4.80979 1.55451,7.46384 -1e-5,10.29427 -8.34519,18.63943 -18.63948,18.63944 -10.2943,-1e-5 -18.63948,-8.34516 -18.63948,-18.63943 0,-10.29428 8.34518,-18.63944 18.63948,-18.639436 z"/>
+    </circle>
+
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.306887;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 0,0 1.45152,0.50017 c 0,0 -0.11698,0.68951 0.13048,0.78558 0.51802,0.20114 0.78445,-1.20596 1.31135,-1.02938 0.53835,0.18043 -0.10271,1.46585 0.43548,1.64675 0.49988,0.16803 0.74471,-1.13778 1.24621,-0.97467 0.52468,0.17065 -0.0721,1.426807 0.4545,1.591567 0.51259,0.1604 0.73568,-1.186217 1.24668,-1.020797 0.54018,0.17487 -0.10395,1.469567 0.43548,1.646737 0.52936,0.17387 0.77938,-1.240287 1.30232,-1.047917 0.61529,0.226337 -0.22238,1.647027 0.36801,1.932087 0.21065,0.1017 0.62149,-0.32587 0.62149,-0.32587 l 2.92077,1.381838"
+       id="path75777"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccaaaaaaaaacc"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600"
+       inkscape:label="ArrorIncom">
+      <animateMotion
+                  begin="op.begin+6s;op.end+9s"
+		  dur="3s"
+                  >
+	<mpath href="#path4-5" />
+      </animateMotion>
+    </path>
