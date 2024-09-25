@@ -5,7 +5,8 @@
 This example is probably not the best structured because I am new to reveal.js and a lot of things had to work rather quickly, so I learned and adapted along the way. 
 
 <p align="center">
-<img src="https://github.com/Hexanders/Phd_presentaion/blob/gh-pages/pictures/Opening/title_page_oppening.svg">
+<a href="https://hexanders.github.io/Phd_presentaion/"><img src="https://github.com/Hexanders/Phd_presentaion/blob/gh-pages/pictures/Opening/title_page_oppening.svg"> 
+</a>
 </p>
 
 <p align="center">
