@@ -2,6 +2,10 @@
 
 [Here](https://hexanders.github.io/Phd_presentaion/) is another example of how to make a presentation using the fantastic tool called [reveal.js](https://revealjs.com/). 
 
+Keybord shortcuts:
+  - f : full screen
+  - z : zoom out
+
 This example is probably not the best structured because I am new to reveal.js and a lot of things had to work rather quickly, so I learned and adapted along the way. 
 
 <p align="center">
